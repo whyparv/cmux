@@ -3,6 +3,256 @@
   "version": "1.0",
   "strings": {
     "browser.pdfPreview.printJobTitle": { "extractionState": "manual", "localizations": {"ar":{"stringUnit":{"state":"translated","value":"PDF"}},"bs":{"stringUnit":{"state":"translated","value":"PDF"}},"da":{"stringUnit":{"state":"translated","value":"PDF"}},"de":{"stringUnit":{"state":"translated","value":"PDF"}},"en":{"stringUnit":{"state":"translated","value":"PDF"}},"es":{"stringUnit":{"state":"translated","value":"PDF"}},"fr":{"stringUnit":{"state":"translated","value":"PDF"}},"it":{"stringUnit":{"state":"translated","value":"PDF"}},"ja":{"stringUnit":{"state":"translated","value":"PDF"}},"km":{"stringUnit":{"state":"translated","value":"PDF"}},"ko":{"stringUnit":{"state":"translated","value":"PDF"}},"nb":{"stringUnit":{"state":"translated","value":"PDF"}},"pl":{"stringUnit":{"state":"translated","value":"PDF"}},"pt-BR":{"stringUnit":{"state":"translated","value":"PDF"}},"ru":{"stringUnit":{"state":"translated","value":"PDF"}},"th":{"stringUnit":{"state":"translated","value":"PDF"}},"tr":{"stringUnit":{"state":"translated","value":"PDF"}},"uk":{"stringUnit":{"state":"translated","value":"PDF"}},"zh-Hans":{"stringUnit":{"state":"translated","value":"PDF"}},"zh-Hant":{"stringUnit":{"state":"translated","value":"PDF"}}} },
+    "command.mobileConnect.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobile"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "モバイル"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移动设备"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "行動裝置"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "모바일"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobilgeräte"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Móvil"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobile"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivi mobili"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobil"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Urządzenia mobilne"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мобильные устройства"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobilni uređaji"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الأجهزة المحمولة"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobil"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivos móveis"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "อุปกรณ์พกพา"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mobil"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мобільні пристрої"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ឧបករណ៍ចល័ត"
+          }
+        }
+      }
+    },
+    "command.mobileConnect.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connect iPhone/iPad"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone/iPadを接続"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "连接 iPhone/iPad"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "連接 iPhone/iPad"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone/iPad 연결"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone/iPad verbinden"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectar iPhone/iPad"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connecter l’iPhone/iPad"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connetti iPhone/iPad"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forbind iPhone/iPad"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Połącz iPhone/iPad"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подключить iPhone/iPad"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poveži iPhone/iPad"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "توصيل iPhone/iPad"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koble til iPhone/iPad"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectar iPhone/iPad"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เชื่อมต่อ iPhone/iPad"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone/iPad’i Bağla"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Підключити iPhone/iPad"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ភ្ជាប់ iPhone/iPad"
+          }
+        }
+      }
+    },
     "auth.error.invalid_code_short": {
       "extractionState": "manual",
       "localizations": {
