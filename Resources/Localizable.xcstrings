@@ -137573,6 +137573,23 @@
         }
       }
     },
+    "sidebar.workspace.rename.field.accessibilityLabel": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rename workspace"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ワークスペース名を変更"
+          }
+        }
+      }
+    },
     "socketControl.allowAll.description": {
       "extractionState": "manual",
       "localizations": {
