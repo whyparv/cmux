@@ -92588,6 +92588,778 @@
         }
       }
     },
+    "emptyPanel.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empty Panel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空のパネル"
+          }
+        }
+      }
+    },
+    "projectSchemes.badge.personal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "personal"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "個人"
+          }
+        }
+      }
+    },
+    "projectSchemes.badge.shared" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "shared"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共有"
+          }
+        }
+      }
+    },
+    "projectSchemes.detail.archiveTarget" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archive target"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーカイブターゲット"
+          }
+        }
+      }
+    },
+    "projectSchemes.detail.environment" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Environment"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "環境"
+          }
+        }
+      }
+    },
+    "projectSchemes.detail.launchArguments" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Launch arguments"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "起動引数"
+          }
+        }
+      }
+    },
+    "projectSchemes.detail.profileTarget" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile target"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プロファイルターゲット"
+          }
+        }
+      }
+    },
+    "projectSchemes.detail.runTarget" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Run target"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行ターゲット"
+          }
+        }
+      }
+    },
+    "projectSchemes.detail.testTargets" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test targets"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テストターゲット"
+          }
+        }
+      }
+    },
+    "projectSchemes.detail.visibility" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visibility"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "表示範囲"
+          }
+        }
+      }
+    },
+    "projectSchemes.detail.visibilityPersonal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personal (current user)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "個人（現在のユーザー）"
+          }
+        }
+      }
+    },
+    "projectSchemes.detail.visibilityShared" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shared"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共有"
+          }
+        }
+      }
+    },
+    "projectSchemes.empty.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick a scheme on the left to inspect its run / test / profile / archive targets and launch settings."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "左側のスキームを選択して、実行 / テスト / プロファイル / アーカイブのターゲットと起動設定を確認します。"
+          }
+        }
+      }
+    },
+    "projectSchemes.empty.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a scheme"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スキームを選択"
+          }
+        }
+      }
+    },
+    "projectSchemes.row.runFormat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "run: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行: %@"
+          }
+        }
+      }
+    },
+    "projectSchemes.row.testFormat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "test: %d"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テスト: %d"
+          }
+        }
+      }
+    },
+    "settings.app.globalFontMagnification": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Global Font Magnification"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "グローバルフォント倍率"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全局字体放大"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全域字型放大"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "전역 글꼴 확대"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Globale Schriftvergrößerung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ampliación global de fuente"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agrandissement global de la police"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingrandimento globale del font"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Global skriftforstørrelse"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Globalne powiększenie czcionki"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Глобальное увеличение шрифта"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Globalno uvećanje fonta"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تكبير الخط العام"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Global skriftforstørrelse"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ampliação global da fonte"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การขยายแบบอักษรทั่วทั้งแอป"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Genel yazı tipi büyütme"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Глобальне збільшення шрифту"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ការពង្រីកពុម្ពអក្សរសកល"
+          }
+        }
+      }
+    },
+    "settings.app.globalFontMagnification.subtitleOff": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scale every font in cmux by the same percentage. 100% = design size."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux のすべてのフォントを同じ割合でスケーリングします。100% = 設計サイズ。"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按相同比例缩放 cmux 中的所有字体。100% = 设计尺寸。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "以相同比例縮放 cmux 中的所有字型。100% = 設計尺寸。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux의 모든 글꼴을 같은 비율로 조정합니다. 100% = 디자인 크기."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skaliert jede Schrift in cmux um denselben Prozentsatz. 100 % = Designgröße."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escala todas las fuentes de cmux con el mismo porcentaje. 100% = tamaño de diseño."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Met à l'échelle toutes les polices de cmux avec le même pourcentage. 100 % = taille de conception."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ridimensiona ogni font in cmux della stessa percentuale. 100% = dimensione di progetto."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skalerer alle skrifter i cmux med samme procent. 100 % = designstørrelse."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skaluje każdą czcionkę w cmux o ten sam procent. 100% = rozmiar projektowy."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Масштабирует все шрифты в cmux на один и тот же процент. 100% = проектный размер."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skalira svaki font u cmux-u istim procentom. 100% = projektovana veličina."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يضبط حجم كل خط في cmux بالنسبة نفسها. 100% = حجم التصميم."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skalerer alle skrifter i cmux med samme prosent. 100 % = designstørrelse."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escala todas as fontes no cmux pela mesma porcentagem. 100% = tamanho de design."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปรับขนาดแบบอักษรทุกตัวใน cmux ด้วยเปอร์เซ็นต์เดียวกัน 100% = ขนาดตามดีไซน์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux'taki her yazı tipini aynı yüzdeyle ölçekler. %100 = tasarım boyutu."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Масштабує всі шрифти в cmux на однаковий відсоток. 100% = проєктний розмір."
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ពង្រីក/បង្រួមពុម្ពអក្សរទាំងអស់ក្នុង cmux តាមភាគរយដូចគ្នា។ 100% = ទំហំរចនា។"
+          }
+        }
+      }
+    },
+    "settings.app.globalFontMagnification.subtitleOn": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminals, tabs, and chrome all render at this magnification. Per-pane zoom (⌘= / ⌘-) still overrides for the focused pane."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ターミナル、タブ、UI をこの倍率で描画します。ペインごとのズーム (⌘= / ⌘-) はフォーカス中のペインに対して引き続き優先されます。"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "终端、标签页和 chrome 都以此放大比例渲染。单个窗格缩放（⌘= / ⌘-）仍会覆盖当前聚焦窗格。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "終端機、分頁和 chrome 都會以此放大倍率算繪。單一窗格縮放（⌘= / ⌘-）仍會覆蓋目前聚焦窗格。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "터미널, 탭, chrome이 모두 이 확대율로 렌더링됩니다. 패널별 확대/축소(⌘= / ⌘-)는 포커스된 패널에서 계속 우선합니다."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminals, Tabs und Chrome werden alle mit dieser Vergrößerung dargestellt. Der Zoom pro Bereich (⌘= / ⌘-) hat für den fokussierten Bereich weiterhin Vorrang."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminales, pestañas y chrome se renderizan con esta ampliación. El zoom por panel (⌘= / ⌘-) sigue teniendo prioridad en el panel enfocado."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les terminaux, onglets et le chrome s'affichent tous avec cet agrandissement. Le zoom par volet (⌘= / ⌘-) reste prioritaire pour le volet actif."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminali, schede e chrome vengono renderizzati con questo ingrandimento. Lo zoom per riquadro (⌘= / ⌘-) continua a prevalere per il riquadro attivo."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminaler, faner og chrome gengives alle med denne forstørrelse. Zoom pr. rude (⌘= / ⌘-) tilsidesætter stadig for den fokuserede rude."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminale, karty i chrome renderują się z tym powiększeniem. Powiększenie dla panelu (⌘= / ⌘-) nadal ma pierwszeństwo dla aktywnego panelu."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Терминалы, вкладки и chrome отображаются с этим увеличением. Масштаб отдельной панели (⌘= / ⌘-) по-прежнему имеет приоритет для панели в фокусе."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminali, kartice i chrome prikazuju se s ovim uvećanjem. Zumiranje po oknu (⌘= / ⌘-) i dalje ima prednost za fokusirano okno."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تُعرض الطرفيات والتبويبات وواجهة التطبيق بهذا التكبير. يظل تكبير كل جزء (⌘= / ⌘-) متجاوزًا للجزء المركّز عليه."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminaler, faner og chrome gjengis alle med denne forstørrelsen. Zoom per rute (⌘= / ⌘-) overstyrer fortsatt for den fokuserte ruten."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminais, abas e chrome são renderizados com esta ampliação. O zoom por painel (⌘= / ⌘-) ainda prevalece no painel em foco."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เทอร์มินัล แท็บ และ chrome จะแสดงผลด้วยการขยายนี้ทั้งหมด การซูมเฉพาะพาเนล (⌘= / ⌘-) ยังคงมีผลเหนือกว่าสำหรับพาเนลที่โฟกัสอยู่"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminaller, sekmeler ve chrome bu büyütmeyle işlenir. Bölme başına yakınlaştırma (⌘= / ⌘-) odaktaki bölme için hâlâ önceliklidir."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Термінали, вкладки та chrome відображаються з цим збільшенням. Масштаб окремої панелі (⌘= / ⌘-) і далі має пріоритет для панелі у фокусі."
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ស្ថានីយ ផ្ទាំង និង chrome ត្រូវបានបង្ហាញតាមការពង្រីកនេះទាំងអស់។ ការពង្រីកតាមផ្ទាំង (⌘= / ⌘-) នៅតែជំនួសសម្រាប់ផ្ទាំងដែលកំពុងផ្តោត។"
+          }
+        }
+      }
+    },
+    "settings.app.globalFontMagnification.reset": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リセット"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重置"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重設"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "재설정"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zurücksetzen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nulstil"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resetuj"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сбросить"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resetuj"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إعادة تعيين"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tilbakestill"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redefinir"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รีเซ็ต"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sıfırla"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скинути"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "កំណត់ឡើងវិញ"
+          }
+        }
+      }
+    },
     "settings.app.newWorkspacePlacement": {
       "extractionState": "manual",
       "localizations": {
@@ -159222,121 +159994,121 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Terminal selections do not replace the system clipboard. Use Cmd+C to copy manually."
+            "value": "cmux does not add system-clipboard copy on selection. Ghostty config still controls Paste Selection."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ターミナルで選択してもシステムクリップボードは置き換えません。コピーするには Cmd+C を使います。"
+            "value": "cmux は選択時のシステムクリップボードへのコピーを追加しません。Ghostty 設定が引き続き「選択をペースト」を制御します。"
           }
         },
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "تحديدات الطرفية لا تستبدل حافظة النظام. استخدم Cmd+C للنسخ يدويًا."
+            "value": "لا يضيف cmux نسخًا إلى حافظة النظام عند التحديد. لا تزال إعدادات Ghostty تتحكم في «لصق التحديد»."
           }
         },
         "bs": {
           "stringUnit": {
             "state": "translated",
-            "value": "Odabiri u terminalu ne zamjenjuju sistemski međuspremnik. Koristite Cmd+C za ručno kopiranje."
+            "value": "cmux ne dodaje kopiranje u sistemski međuspremnik pri odabiru. Ghostty konfiguracija i dalje kontroliše Lijepljenje odabira."
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Terminalmarkeringer erstatter ikke systemets udklipsholder. Brug Cmd+C for at kopiere manuelt."
+            "value": "cmux tilføjer ikke kopiering til systemets udklipsholder ved markering. Ghostty-konfiguration styrer stadig Indsæt markering."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Terminalauswahlen ersetzen nicht die Systemzwischenablage. Verwende Cmd+C, um manuell zu kopieren."
+            "value": "cmux fügt beim Auswählen kein Kopieren in die Systemzwischenablage hinzu. Die Ghostty-Konfiguration steuert weiterhin „Auswahl einfügen“."
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Las selecciones del terminal no reemplazan el portapapeles del sistema. Usa Cmd+C para copiar manualmente."
+            "value": "cmux no añade copia al portapapeles del sistema al seleccionar. La configuración de Ghostty sigue controlando Pegar selección."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Les sélections du terminal ne remplacent pas le presse-papiers système. Utilisez Cmd+C pour copier manuellement."
+            "value": "cmux n’ajoute pas de copie vers le presse-papiers système lors de la sélection. La configuration Ghostty contrôle toujours Coller la sélection."
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Le selezioni del terminale non sostituiscono gli appunti di sistema. Usa Cmd+C per copiare manualmente."
+            "value": "cmux non aggiunge la copia negli appunti di sistema alla selezione. La configurazione di Ghostty controlla ancora Incolla selezione."
           }
         },
         "km": {
           "stringUnit": {
             "state": "translated",
-            "value": "ការជ្រើសក្នុង terminal មិនជំនួសក្ដារតម្រៀបរបស់ប្រព័ន្ធទេ។ ប្រើ Cmd+C ដើម្បីចម្លងដោយដៃ។"
+            "value": "cmux មិនបន្ថែមការចម្លងទៅ clipboard របស់ប្រព័ន្ធពេលជ្រើសទេ។ ការកំណត់ Ghostty នៅតែគ្រប់គ្រង Paste Selection។"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "터미널 선택은 시스템 클립보드를 바꾸지 않습니다. 수동으로 복사하려면 Cmd+C를 사용하세요."
+            "value": "cmux는 선택 시 시스템 클립보드 복사를 추가하지 않습니다. Ghostty 설정이 계속 Paste Selection을 제어합니다."
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Terminalmarkeringer erstatter ikke systemutklippstavlen. Bruk Cmd+C for å kopiere manuelt."
+            "value": "cmux legger ikke til kopiering til systemutklippstavlen ved markering. Ghostty-konfigurasjonen styrer fortsatt Lim inn markering."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Zaznaczenia w terminalu nie zastępują schowka systemowego. Użyj Cmd+C, aby skopiować ręcznie."
+            "value": "cmux nie dodaje kopiowania do schowka systemowego przy zaznaczaniu. Konfiguracja Ghostty nadal steruje funkcją Wklej zaznaczenie."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "As seleções do terminal não substituem a área de transferência do sistema. Use Cmd+C para copiar manualmente."
+            "value": "O cmux não adiciona cópia para a área de transferência do sistema ao selecionar. A configuração do Ghostty ainda controla Colar seleção."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Выделения в терминале не заменяют системный буфер обмена. Используйте Cmd+C, чтобы копировать вручную."
+            "value": "cmux не добавляет копирование в системный буфер обмена при выделении. Конфигурация Ghostty по-прежнему управляет «Вставить выделение»."
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "การเลือกในเทอร์มินัลจะไม่แทนที่คลิปบอร์ดของระบบ ใช้ Cmd+C เพื่อคัดลอกด้วยตนเอง"
+            "value": "cmux จะไม่เพิ่มการคัดลอกไปยังคลิปบอร์ดของระบบเมื่อเลือก การกำหนดค่า Ghostty ยังคงควบคุม Paste Selection"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Terminal seçimleri sistem panosunun yerini almaz. Elle kopyalamak için Cmd+C kullanın."
+            "value": "cmux seçim sırasında sistem panosuna kopyalamayı eklemez. Ghostty yapılandırması Paste Selection denetimini sürdürür."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Виділення в терміналі не замінюють системний буфер обміну. Використовуйте Cmd+C, щоб копіювати вручну."
+            "value": "cmux не додає копіювання до системного буфера обміну під час виділення. Конфігурація Ghostty й надалі керує «Вставити виділення»."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "终端选择不会替换系统剪贴板。请使用 Cmd+C 手动复制。"
+            "value": "cmux 不会在选择时额外复制到系统剪贴板。Ghostty 配置仍控制“粘贴选择”。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "終端機選取不會取代系統剪貼簿。請使用 Cmd+C 手動複製。"
+            "value": "cmux 不會在選取時額外複製到系統剪貼簿。Ghostty 設定仍控制「貼上選取」。"
           }
         }
       }
@@ -159347,121 +160119,121 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Selected terminal text is copied to the system clipboard when the selection is committed."
+            "value": "Selected terminal text is also copied to the system clipboard when the selection is committed."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "選択が確定したとき、ターミナルで選択したテキストをシステムクリップボードへコピーします。"
+            "value": "選択が確定したとき、ターミナルで選択したテキストをシステムクリップボードにもコピーします。"
           }
         },
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "يتم نسخ نص الطرفية المحدد إلى حافظة النظام عند تثبيت التحديد."
+            "value": "يُنسخ نص الطرفية المحدد أيضًا إلى حافظة النظام عند تثبيت التحديد."
           }
         },
         "bs": {
           "stringUnit": {
             "state": "translated",
-            "value": "Odabrani tekst iz terminala kopira se u sistemski međuspremnik kada se odabir potvrdi."
+            "value": "Odabrani tekst terminala također se kopira u sistemski međuspremnik kada se odabir potvrdi."
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Markeret terminaltekst kopieres til systemets udklipsholder, når markeringen bekræftes."
+            "value": "Markeret terminaltekst kopieres også til systemets udklipsholder, når markeringen bekræftes."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ausgewählter Terminaltext wird in die Systemzwischenablage kopiert, sobald die Auswahl bestätigt wird."
+            "value": "Ausgewählter Terminaltext wird zusätzlich in die Systemzwischenablage kopiert, sobald die Auswahl bestätigt wird."
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "El texto seleccionado del terminal se copia al portapapeles del sistema cuando se confirma la selección."
+            "value": "El texto seleccionado del terminal también se copia al portapapeles del sistema cuando se confirma la selección."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Le texte sélectionné dans le terminal est copié dans le presse-papiers système lorsque la sélection est validée."
+            "value": "Le texte sélectionné dans le terminal est aussi copié dans le presse-papiers système lorsque la sélection est validée."
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Il testo selezionato nel terminale viene copiato negli appunti di sistema quando la selezione viene confermata."
+            "value": "Il testo selezionato nel terminale viene copiato anche negli appunti di sistema quando la selezione viene confermata."
           }
         },
         "km": {
           "stringUnit": {
             "state": "translated",
-            "value": "អត្ថបទ terminal ដែលបានជ្រើស នឹងត្រូវចម្លងទៅក្ដារតម្រៀបរបស់ប្រព័ន្ធ ពេលការជ្រើសត្រូវបានបញ្ជាក់។"
+            "value": "អត្ថបទ terminal ដែលបានជ្រើសនឹងត្រូវចម្លងទៅ clipboard របស់ប្រព័ន្ធផងដែរ ពេលការជ្រើសត្រូវបានបញ្ជាក់។"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "선택이 확정되면 선택한 터미널 텍스트가 시스템 클립보드에 복사됩니다."
+            "value": "선택이 확정되면 선택한 터미널 텍스트도 시스템 클립보드에 복사됩니다."
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Markert terminaltekst kopieres til systemutklippstavlen når markeringen bekreftes."
+            "value": "Markert terminaltekst kopieres også til systemutklippstavlen når markeringen bekreftes."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Zaznaczony tekst terminala jest kopiowany do schowka systemowego po zatwierdzeniu zaznaczenia."
+            "value": "Zaznaczony tekst terminala jest też kopiowany do schowka systemowego po zatwierdzeniu zaznaczenia."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O texto selecionado no terminal é copiado para a área de transferência do sistema quando a seleção é confirmada."
+            "value": "O texto selecionado no terminal também é copiado para a área de transferência do sistema quando a seleção é confirmada."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Выделенный текст терминала копируется в системный буфер обмена после подтверждения выделения."
+            "value": "Выделенный текст терминала также копируется в системный буфер обмена после подтверждения выделения."
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "ข้อความเทอร์มินัลที่เลือกจะถูกคัดลอกไปยังคลิปบอร์ดของระบบเมื่อยืนยันการเลือก"
+            "value": "ข้อความเทอร์มินัลที่เลือกจะถูกคัดลอกไปยังคลิปบอร์ดของระบบด้วยเมื่อยืนยันการเลือก"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Seçim kesinleştiğinde seçilen terminal metni sistem panosuna kopyalanır."
+            "value": "Seçim kesinleştiğinde seçilen terminal metni sistem panosuna da kopyalanır."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Вибраний текст термінала копіюється до системного буфера обміну після підтвердження виділення."
+            "value": "Вибраний текст термінала також копіюється до системного буфера обміну після підтвердження виділення."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "确认选择后，所选终端文本会复制到系统剪贴板。"
+            "value": "确认选择后，所选终端文本也会复制到系统剪贴板。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "確認選取後，所選終端機文字會複製到系統剪貼簿。"
+            "value": "確認選取後，所選終端機文字也會複製到系統剪貼簿。"
           }
         }
       }
@@ -210054,6 +210826,159 @@
           "stringUnit": {
             "state": "translated",
             "value": "カスタムサイドバーが見つかりません"
+          }
+        }
+      }
+    },
+    "cli.sessions.usage": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux sessions list [options]\n       cmux sessions [options]\n\nPrint saved agent session records from ~/.cmuxterm/*-hook-sessions.json.\nThis command does not require a running cmux socket.\n\nOptions:\n  --agent <name>        Filter to one agent, for example codex or claude\n  --session <id>        Filter to one agent session id\n  --workspace <id>      Filter to one saved workspace id\n  --surface <id>        Filter to one saved surface id\n  --cwd <text>          Filter by saved cwd or launch working directory\n  --state-dir <path>    Override hook state directory\n  --codex-home <path>   Override the default Codex home used for transcript checks\n  --limit <n>           Limit text output (default: 100)\n  --all                 Print all matches\n  --json                Print structured JSON\n\nCodex rows include whether the saved id exists in CODEX_HOME/session_index.jsonl\nand whether a matching transcript file exists under CODEX_HOME/sessions or\nCODEX_HOME/archived_sessions.\n\nCompatibility aliases:\n  cmux sessions debug [options]\n  cmux session-debug [options]"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux sessions list [options]\n       cmux sessions [options]\n\n~/.cmuxterm/*-hook-sessions.json から保存済みエージェントセッション記録を表示します。\nこのコマンドは実行中の cmux ソケットを必要としません。\n\nOptions:\n  --agent <name>        1 つのエージェントに絞り込みます。例: codex または claude\n  --session <id>        1 つのエージェントセッション ID に絞り込みます\n  --workspace <id>      保存済みワークスペース ID に絞り込みます\n  --surface <id>        保存済みサーフェス ID に絞り込みます\n  --cwd <text>          保存済み cwd または起動時の作業ディレクトリで絞り込みます\n  --state-dir <path>    フック状態ディレクトリを上書きします\n  --codex-home <path>   トランスクリプト確認に使う既定の Codex ホームを上書きします\n  --limit <n>           テキスト出力の件数を制限します（既定: 100）\n  --all                 すべての一致を表示します\n  --json                構造化 JSON を出力します\n\nCodex 行には、保存済み ID が CODEX_HOME/session_index.jsonl に存在するか、\n一致するトランスクリプトファイルが CODEX_HOME/sessions または\nCODEX_HOME/archived_sessions に存在するかが含まれます。\n\nCompatibility aliases:\n  cmux sessions debug [options]\n  cmux session-debug [options]"
+          }
+        }
+      }
+    },
+    "cli.sessions.error.unknownSubcommand": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unknown sessions subcommand: %@. Usage: cmux sessions list [options]"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不明な sessions サブコマンドです: %@。使用方法: cmux sessions list [options]"
+          }
+        }
+      }
+    },
+    "cli.sessions.error.unknownFlag": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sessions list: unknown flag '%@'"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sessions list: 不明なフラグ '%@'"
+          }
+        }
+      }
+    },
+    "cli.sessions.error.unexpectedArgument": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sessions list: unexpected argument '%@'"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sessions list: 予期しない引数 '%@'"
+          }
+        }
+      }
+    },
+    "cli.sessions.error.invalidLimit": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sessions list: --limit must be a positive integer"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sessions list: --limit には正の整数を指定してください"
+          }
+        }
+      }
+    },
+    "cli.sessions.error.agentRequiresValue": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sessions list: --agent requires a value"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sessions list: --agent には値が必要です"
+          }
+        }
+      }
+    },
+    "cli.sessions.error.unknownAgent": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sessions list: unknown agent '%@'"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sessions list: 不明なエージェント '%@'"
+          }
+        }
+      }
+    },
+    "cli.sessions.output.noMatches": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No saved agent sessions matched."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一致する保存済みエージェントセッションはありません。"
+          }
+        }
+      }
+    },
+    "cli.sessions.output.more": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "... %lld more. Pass --all or --limit <n>."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "... %lld 件追加で一致。--all または --limit <n> を指定してください。"
           }
         }
       }
