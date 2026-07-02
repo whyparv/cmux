@@ -217748,6 +217748,23 @@
           }
         }
       }
+    },
+    "sidebar.pro.badge": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro"
+          }
+        }
+      }
     }
   },
   "version": "1.0"
