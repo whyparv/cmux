@@ -201814,6 +201814,29 @@
         }
       }
     },
+    "terminalContextMenu.reconnectPane": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reconnect Pane"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペインを再接続"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "창 재연결"
+          }
+        }
+      }
+    },
     "terminalContextMenu.resetTerminal": {
       "extractionState": "manual",
       "localizations": {
