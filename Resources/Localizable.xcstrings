@@ -41194,121 +41194,121 @@
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] اضغط r ثم Enter لإعادة الاتصال، أو Enter لإغلاق هذا الجزء."
+            "value": "[cmux] اضغط Enter لإغلاق هذا الجزء. اضغط r ثم Enter لإعادة الاتصال."
           }
         },
         "bs": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] pritisnite r pa Enter za ponovno povezivanje ili Enter za zatvaranje ovog okna."
+            "value": "[cmux] pritisnite Enter za zatvaranje ovog okna. Pritisnite r pa Enter za ponovno povezivanje."
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] tryk på r og derefter Enter for at genoprette forbindelsen, eller Enter for at lukke denne rude."
+            "value": "[cmux] tryk på Enter for at lukke denne rude. Tryk på r og derefter Enter for at genoprette forbindelsen."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] drücken Sie r und dann Enter zum erneuten Verbinden, oder Enter, um diesen Bereich zu schließen."
+            "value": "[cmux] drücken Sie Enter, um diesen Bereich zu schließen. Drücken Sie r und dann Enter zum erneuten Verbinden."
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] press r then Enter to reconnect, or Enter to close this pane."
+            "value": "[cmux] press Enter to close this pane. Press r then Enter to reconnect."
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] pulsa r y luego Enter para reconectar, o Enter para cerrar este panel."
+            "value": "[cmux] pulsa Enter para cerrar este panel. Pulsa r y luego Enter para reconectar."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] appuyez sur r puis Entrée pour reconnecter, ou sur Entrée pour fermer ce volet."
+            "value": "[cmux] appuyez sur Entrée pour fermer ce volet. Appuyez sur r puis Entrée pour reconnecter."
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] premi r e poi Invio per riconnettere, oppure Invio per chiudere questo riquadro."
+            "value": "[cmux] premi Invio per chiudere questo riquadro. Premi r e poi Invio per riconnettere."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] 再接続するには r を押して Enter、閉じるには Enter を押してください。"
+            "value": "[cmux] 閉じるには Enter を押してください。再接続するには r を押して Enter を押してください。"
           }
         },
         "km": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] ចុច r បន្ទាប់មក Enter ដើម្បីភ្ជាប់ឡើងវិញ ឬ Enter ដើម្បីបិទផ្ទាំងនេះ។"
+            "value": "[cmux] ចុច Enter ដើម្បីបិទផ្ទាំងនេះ។ ចុច r បន្ទាប់មក Enter ដើម្បីភ្ជាប់ឡើងវិញ។"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] 다시 연결하려면 r을 누른 뒤 Enter를 누르고, 이 창을 닫으려면 Enter를 누르세요."
+            "value": "[cmux] 이 창을 닫으려면 Enter를 누르세요. 다시 연결하려면 r을 누른 뒤 Enter를 누르세요."
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] trykk r og deretter Enter for å koble til på nytt, eller Enter for å lukke denne ruten."
+            "value": "[cmux] trykk Enter for å lukke denne ruten. Trykk r og deretter Enter for å koble til på nytt."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] naciśnij r, a potem Enter, aby połączyć ponownie, albo Enter, aby zamknąć ten panel."
+            "value": "[cmux] naciśnij Enter, aby zamknąć ten panel. Naciśnij r, a potem Enter, aby połączyć ponownie."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] pressione r e depois Enter para reconectar, ou Enter para fechar este painel."
+            "value": "[cmux] pressione Enter para fechar este painel. Pressione r e depois Enter para reconectar."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] нажмите r, затем Enter, чтобы переподключиться, или Enter, чтобы закрыть эту панель."
+            "value": "[cmux] нажмите Enter, чтобы закрыть эту панель. Нажмите r, затем Enter, чтобы переподключиться."
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] กด r แล้วกด Enter เพื่อเชื่อมต่อใหม่ หรือกด Enter เพื่อปิดบานหน้าต่างนี้"
+            "value": "[cmux] กด Enter เพื่อปิดบานหน้าต่างนี้ กด r แล้วกด Enter เพื่อเชื่อมต่อใหม่"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] yeniden bağlanmak için r sonra Enter'a, bu bölmeyi kapatmak için Enter'a basın."
+            "value": "[cmux] bu bölmeyi kapatmak için Enter'a basın. Yeniden bağlanmak için r sonra Enter'a basın."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] натисніть r, потім Enter, щоб повторно підключитися, або Enter, щоб закрити цю панель."
+            "value": "[cmux] натисніть Enter, щоб закрити цю панель. Натисніть r, потім Enter, щоб повторно підключитися."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] 按 r 后再按 Enter 重新连接，或按 Enter 关闭此窗格。"
+            "value": "[cmux] 按 Enter 关闭此窗格。按 r 后再按 Enter 重新连接。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "[cmux] 按 r 再按 Enter 重新連線，或按 Enter 關閉此窗格。"
+            "value": "[cmux] 按 Enter 關閉此窗格。按 r 再按 Enter 重新連線。"
           }
         }
       }
