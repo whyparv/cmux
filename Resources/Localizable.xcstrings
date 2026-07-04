@@ -52452,6 +52452,23 @@
         }
       }
     },
+    "command.pro.upgrade.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upgrade to cmux Pro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Proにアップグレード"
+          }
+        }
+      }
+    },
     "command.renameTab.title": {
       "extractionState": "manual",
       "localizations": {
@@ -104387,125 +104404,6 @@
         }
       }
     },
-    "menu.file.newWorkspaceGroup": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "مجموعة مساحة عمل جديدة"
-          }
-        },
-        "bs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nova grupa radnih prostora"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ny arbejdsområdegruppe"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Neue Arbeitsbereichsgruppe"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New Workspace Group"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuevo grupo de espacios de trabajo"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nouveau groupe d’espaces de travail"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuovo gruppo di aree di lavoro"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "新規ワークスペースグループ"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "새 작업 공간 그룹"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ny arbeidsområdegruppe"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nowa grupa przestrzeni roboczych"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Novo grupo de áreas de trabalho"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Новая группа рабочих пространств"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "กลุ่มเวิร์กสเปซใหม่"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yeni Çalışma Alanı Grubu"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Нова група робочих областей"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "新建工作区组"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "新增工作區群組"
-          }
-        }
-      }
-    },
     "menu.file.newWorkspace": {
       "extractionState": "manual",
       "localizations": {
@@ -104621,6 +104519,125 @@
           "stringUnit": {
             "state": "translated",
             "value": "新增工作區"
+          }
+        }
+      }
+    },
+    "menu.file.newWorkspaceGroup": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مجموعة مساحة عمل جديدة"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nova grupa radnih prostora"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ny arbejdsområdegruppe"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neue Arbeitsbereichsgruppe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Workspace Group"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevo grupo de espacios de trabajo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau groupe d’espaces de travail"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuovo gruppo di aree di lavoro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新規ワークスペースグループ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "새 작업 공간 그룹"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ny arbeidsområdegruppe"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowa grupa przestrzeni roboczych"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novo grupo de áreas de trabalho"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новая группа рабочих пространств"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กลุ่มเวิร์กสเปซใหม่"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni Çalışma Alanı Grubu"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нова група робочих областей"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新建工作区组"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增工作區群組"
           }
         }
       }
@@ -106447,6 +106464,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "SSH"
+          }
+        }
+      }
+    },
+    "menu.help.upgradeToPro": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upgrade to cmux Pro…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Proにアップグレード…"
           }
         }
       }
@@ -120012,6 +120046,584 @@
         }
       }
     },
+    "pricing.enterprise.cta": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contact sales"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "営業に問い合わせ"
+          }
+        }
+      }
+    },
+    "pricing.enterprise.f1": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Self-host agent execution, air-gapped"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "エージェント実行をセルフホスト、エアギャップ対応"
+          }
+        }
+      }
+    },
+    "pricing.enterprise.f2": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SSO / SAML, audit logs"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SSO / SAML、監査ログ"
+          }
+        }
+      }
+    },
+    "pricing.enterprise.f3": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SOC 2"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SOC 2"
+          }
+        }
+      }
+    },
+    "pricing.enterprise.name": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enterprise"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enterprise"
+          }
+        }
+      }
+    },
+    "pricing.enterprise.note": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Self-hosting and compliance."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セルフホスティングとコンプライアンス。"
+          }
+        }
+      }
+    },
+    "pricing.enterprise.price": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カスタム"
+          }
+        }
+      }
+    },
+    "pricing.footnote": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One click with your cmux account. Cancel anytime."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmuxアカウントでワンクリック。いつでも解約できます。"
+          }
+        }
+      }
+    },
+    "pricing.free.cta": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download for Mac"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac版をダウンロード"
+          }
+        }
+      }
+    },
+    "pricing.free.f1": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Native macOS terminal built on Ghostty, open source"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GhosttyベースのネイティブmacOSターミナル、オープンソース"
+          }
+        }
+      }
+    },
+    "pricing.free.f2": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlimited local terminals and agents"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ローカルのターミナルとエージェントは無制限"
+          }
+        }
+      }
+    },
+    "pricing.free.f3": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 active Cloud VMs, 20 VM creates"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cloud VMは同時5台、作成20回"
+          }
+        }
+      }
+    },
+    "pricing.free.f4": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Community support"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コミュニティサポート"
+          }
+        }
+      }
+    },
+    "pricing.free.name": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free"
+          }
+        }
+      }
+    },
+    "pricing.free.note": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The full terminal, forever."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ターミナルのすべてを、ずっと無料で。"
+          }
+        }
+      }
+    },
+    "pricing.perMonth": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/month"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/月"
+          }
+        }
+      }
+    },
+    "pricing.perUserMonth": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/user/month"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/ユーザー/月"
+          }
+        }
+      }
+    },
+    "pricing.pro.cta": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get cmux Pro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Proを購入"
+          }
+        }
+      }
+    },
+    "pricing.pro.f1": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Everything in Free"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Freeのすべて"
+          }
+        }
+      }
+    },
+    "pricing.pro.f2": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cloud dev boxes: 10 active, unlimited creates"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クラウド開発マシン: 同時10台、作成無制限"
+          }
+        }
+      }
+    },
+    "pricing.pro.f3": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "20 compute-hours/mo on a 4 vCPU / 16 GB VM"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4 vCPU / 16 GB VMで毎月20計算時間"
+          }
+        }
+      }
+    },
+    "pricing.pro.f4": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS app: your Mac's terminals on your iPhone"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOSアプリ: MacのターミナルをiPhoneから"
+          }
+        }
+      }
+    },
+    "pricing.pro.f5": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux AI early access + priority support"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux AI早期アクセス + 優先サポート"
+          }
+        }
+      }
+    },
+    "pricing.pro.name": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Pro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Pro"
+          }
+        }
+      }
+    },
+    "pricing.pro.note": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Billed annually ($360/yr), or $45 month-to-month."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "年払い($360/年)、または月払い$45。"
+          }
+        }
+      }
+    },
+    "pricing.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux is free and open source, and always will be. Pro adds the cloud."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmuxはこれからも無料でオープンソースです。Proはクラウドを追加します。"
+          }
+        }
+      }
+    },
+    "pricing.team.cta": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start a team"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "チームを作成"
+          }
+        }
+      }
+    },
+    "pricing.team.f1": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Everything in Pro for every member"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全メンバーにProのすべて"
+          }
+        }
+      }
+    },
+    "pricing.team.f2": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shared team billing"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "チーム共有の請求"
+          }
+        }
+      }
+    },
+    "pricing.team.f3": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Centralized Cloud VM usage"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cloud VM使用量の一元管理"
+          }
+        }
+      }
+    },
+    "pricing.team.name": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Team"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Team"
+          }
+        }
+      }
+    },
+    "pricing.team.note": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Everything in Pro, per seat."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proのすべてを、席ごとに。"
+          }
+        }
+      }
+    },
+    "pricing.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pricing"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "料金"
+          }
+        }
+      }
+    },
+    "pricing.window.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Pro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Pro"
+          }
+        }
+      }
+    },
     "projectSchemes.badge.personal": {
       "extractionState": "manual",
       "localizations": {
@@ -125639,6 +126251,57 @@
           "stringUnit": {
             "state": "translated",
             "value": "Токен оновлення облікового запису недоступний."
+          }
+        }
+      }
+    },
+    "settings.account.pro.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cloud dev boxes, the iOS app, and cmux AI. $30/month billed annually."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クラウド開発マシン、iOSアプリ、cmux AI。年払いで月額$30。"
+          }
+        }
+      }
+    },
+    "settings.account.pro.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Pro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Pro"
+          }
+        }
+      }
+    },
+    "settings.account.pro.upgrade": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upgrade…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アップグレード…"
           }
         }
       }
@@ -179082,125 +179745,6 @@
         }
       }
     },
-    "shortcut.newWorkspaceGroup.label": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "مجموعة مساحة عمل جديدة"
-          }
-        },
-        "bs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nova grupa radnih prostora"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ny arbejdsområdegruppe"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Neue Arbeitsbereichsgruppe"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New Workspace Group"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuevo grupo de espacios de trabajo"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nouveau groupe d’espaces de travail"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuovo gruppo di aree di lavoro"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "新規ワークスペースグループ"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "새 작업 공간 그룹"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ny arbeidsområdegruppe"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nowa grupa przestrzeni roboczych"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Novo grupo de áreas de trabalho"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Новая группа рабочих пространств"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "กลุ่มเวิร์กสเปซใหม่"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yeni Çalışma Alanı Grubu"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Нова група робочих областей"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "新建工作区组"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "新增工作區群組"
-          }
-        }
-      }
-    },
     "shortcut.groupSelectedWorkspaces.label": {
       "extractionState": "manual",
       "localizations": {
@@ -181235,6 +181779,125 @@
           "stringUnit": {
             "state": "translated",
             "value": "新增工作區"
+          }
+        }
+      }
+    },
+    "shortcut.newWorkspaceGroup.label": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مجموعة مساحة عمل جديدة"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nova grupa radnih prostora"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ny arbejdsområdegruppe"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neue Arbeitsbereichsgruppe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Workspace Group"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevo grupo de espacios de trabajo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau groupe d’espaces de travail"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuovo gruppo di aree di lavoro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新規ワークスペースグループ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "새 작업 공간 그룹"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ny arbeidsområdegruppe"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowa grupa przestrzeni roboczych"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novo grupo de áreas de trabalho"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новая группа рабочих пространств"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กลุ่มเวิร์กสเปซใหม่"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni Çalışma Alanı Grubu"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нова група робочих областей"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新建工作区组"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增工作區群組"
           }
         }
       }
@@ -190290,6 +190953,40 @@
           "stringUnit": {
             "state": "translated",
             "value": "Відкрити localhost:%lld"
+          }
+        }
+      }
+    },
+    "sidebar.pro.badge": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro"
+          }
+        }
+      }
+    },
+    "sidebar.pro.badge.dismiss": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide the Pro badge"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proバッジを非表示にする"
           }
         }
       }
@@ -215795,6 +216492,125 @@
         }
       }
     },
+    "workspaceGroup.pinned.tooltip": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مجموعة مثبتة"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prikvačena grupa"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fastgjort gruppe"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Angeheftete Gruppe"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinned group"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupo fijado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Groupe épinglé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gruppo fissato"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ピン留めされたグループ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "고정된 그룹"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Festet gruppe"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przypięta grupa"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grupo fixado"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрепленная группа"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กลุ่มที่ปักหมุด"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sabitlenmiş grup"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закріплена група"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已固定的组"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已釘選的群組"
+          }
+        }
+      }
+    },
     "workspaceGroup.placement.afterCurrent": {
       "extractionState": "manual",
       "localizations": {
@@ -216541,125 +217357,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "在群組標題後立即插入新的群組 workspace。"
-          }
-        }
-      }
-    },
-    "workspaceGroup.pinned.tooltip": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "مجموعة مثبتة"
-          }
-        },
-        "bs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Prikvačena grupa"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fastgjort gruppe"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Angeheftete Gruppe"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pinned group"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Grupo fijado"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Groupe épinglé"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gruppo fissato"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ピン留めされたグループ"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "고정된 그룹"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Festet gruppe"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Przypięta grupa"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Grupo fixado"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Закрепленная группа"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "กลุ่มที่ปักหมุด"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sabitlenmiş grup"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Закріплена група"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "已固定的组"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "已釘選的群組"
           }
         }
       }
@@ -217660,108 +218357,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld 則未讀"
-          }
-        }
-      }
-    },
-    "command.pro.upgrade.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Upgrade to cmux Pro"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "cmux Proにアップグレード"
-          }
-        }
-      }
-    },
-    "menu.help.upgradeToPro": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Upgrade to cmux Pro…"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "cmux Proにアップグレード…"
-          }
-        }
-      }
-    },
-    "settings.account.pro.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "cmux Pro"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "cmux Pro"
-          }
-        }
-      }
-    },
-    "settings.account.pro.subtitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cloud dev boxes, the iOS app, and cmux AI. $30/month billed annually."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "クラウド開発マシン、iOSアプリ、cmux AI。年払いで月額$30。"
-          }
-        }
-      }
-    },
-    "settings.account.pro.upgrade": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Upgrade…"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アップグレード…"
-          }
-        }
-      }
-    },
-    "sidebar.pro.badge": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pro"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pro"
           }
         }
       }
