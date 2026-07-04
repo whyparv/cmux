@@ -120341,13 +120341,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get cmux Pro"
+            "value": "Get Pro"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "cmux Proを購入"
+            "value": "Pro を入手"
           }
         }
       }
@@ -120494,13 +120494,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Start a team"
+            "value": "Get Teams"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "チームを作成"
+            "value": "Teams を入手"
           }
         }
       }
@@ -218384,13 +218384,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "cmux Pro"
+            "value": "cmux Upgrade"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "cmux Pro"
+            "value": "cmux アップグレード"
           }
         }
       }
@@ -218724,13 +218724,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Upgrade to Pro"
+            "value": "Get Pro"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pro にアップグレード"
+            "value": "Pro を入手"
           }
         }
       }
@@ -218741,13 +218741,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sign in to upgrade"
+            "value": "Get Pro"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "サインインしてアップグレード"
+            "value": "Pro を入手"
           }
         }
       }
@@ -218996,13 +218996,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Start a team"
+            "value": "Get Teams"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "チームを開始"
+            "value": "Teams を入手"
           }
         }
       }
