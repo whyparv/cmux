@@ -126261,13 +126261,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Cloud dev boxes, the iOS app, and cmux AI. $30/month billed annually."
+            "value": "Cloud dev boxes, the iOS app, and cmux AI. $20/month billed annually, or $30 month-to-month."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "クラウド開発マシン、iOSアプリ、cmux AI。年払いで月額$30。"
+            "value": "クラウド開発マシン、iOSアプリ、cmux AI。年払いで月額$20、または月払いで$30。"
           }
         }
       }
