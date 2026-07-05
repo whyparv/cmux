@@ -123189,6 +123189,23 @@
         }
       }
     },
+    "remoteTmux.error.tmuxNotFound": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux was not found on %@. cmux ssh-tmux mirrors a remote tmux server (tmux %@ or newer required).\nInstall it on the host: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ に tmux が見つかりませんでした。cmux ssh-tmux はリモートの tmux サーバーをミラーリングします（tmux %@ 以降が必要です）。\nホストにインストールするには: brew install tmux（macOS）、apt install tmux（Debian/Ubuntu）、dnf install tmux（Fedora）"
+          }
+        }
+      }
+    },
     "remoteTmux.error.unreachable": {
       "extractionState": "manual",
       "localizations": {
