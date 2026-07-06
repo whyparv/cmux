@@ -220816,6 +220816,23 @@
           }
         }
       }
+    },
+    "dialog.saveWorkspaceAction.commandsHeader": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commands that will be saved and re-run:"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存され再実行されるコマンド:"
+          }
+        }
+      }
     }
   },
   "version": "1.0"
