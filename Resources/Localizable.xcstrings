@@ -114981,13 +114981,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "New Workspace from Layout"
+            "value": "New Workspace from Template"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "レイアウトから新規ワークスペースを作成"
+            "value": "テンプレートから新規ワークスペースを作成"
           }
         }
       }
@@ -224506,7 +224506,7 @@
         }
       }
     },
-    "dialog.deleteWorkspaceAction.cancel": {
+    "dialog.deleteWorkspaceLayout.cancel": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224523,7 +224523,7 @@
         }
       }
     },
-    "dialog.deleteWorkspaceAction.delete": {
+    "dialog.deleteWorkspaceLayout.delete": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224540,24 +224540,24 @@
         }
       }
     },
-    "dialog.deleteWorkspaceAction.failedTitle": {
+    "dialog.deleteWorkspaceLayout.failedTitle": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Couldn't Delete Action"
+            "value": "Couldn't Delete Workspace Layout"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "アクションを削除できませんでした"
+            "value": "ワークスペースレイアウトを削除できませんでした"
           }
         }
       }
     },
-    "dialog.deleteWorkspaceAction.message": {
+    "dialog.deleteWorkspaceLayout.message": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224574,24 +224574,24 @@
         }
       }
     },
-    "dialog.deleteWorkspaceAction.title": {
+    "dialog.deleteWorkspaceLayout.title": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Delete Action?"
+            "value": "Delete Workspace Layout?"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "アクションを削除しますか?"
+            "value": "ワークスペースレイアウトを削除しますか?"
           }
         }
       }
     },
-    "dialog.saveWorkspaceAction.cancel": {
+    "dialog.saveWorkspaceLayout.cancel": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224608,7 +224608,7 @@
         }
       }
     },
-    "dialog.saveWorkspaceAction.commandsHeader": {
+    "dialog.saveWorkspaceLayout.commandsHeader": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224625,7 +224625,7 @@
         }
       }
     },
-    "dialog.saveWorkspaceAction.defaultName": {
+    "dialog.saveWorkspaceLayout.defaultName": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224642,7 +224642,7 @@
         }
       }
     },
-    "dialog.saveWorkspaceAction.envHeader": {
+    "dialog.saveWorkspaceLayout.envHeader": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224659,58 +224659,75 @@
         }
       }
     },
-    "dialog.saveWorkspaceAction.failedTitle": {
+    "dialog.saveWorkspaceLayout.failedTitle": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Couldn't Save Action"
+            "value": "Couldn't Save Workspace Layout"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "アクションを保存できませんでした"
+            "value": "ワークスペースレイアウトを保存できませんでした"
           }
         }
       }
     },
-    "dialog.saveWorkspaceAction.message": {
+    "dialog.saveWorkspaceLayout.message": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Saves this workspace's layout as a reusable action in %@. It appears in the new-workspace menu and the Command Palette."
+            "value": "Saves this workspace as a reusable layout in %@. It appears in the new-workspace menu and the Command Palette."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "このワークスペースのレイアウトを再利用可能なアクションとして %@ に保存します。新規ワークスペースメニューとコマンドパレットに表示されます。"
+            "value": "このワークスペースを再利用可能なレイアウトとして %@ に保存します。新規ワークスペースメニューとコマンドパレットに表示されます。"
           }
         }
       }
     },
-    "dialog.saveWorkspaceAction.namePlaceholder": {
+    "dialog.saveWorkspaceLayout.namePlaceholder": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Action name"
+            "value": "Layout name"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "アクション名"
+            "value": "レイアウト名"
           }
         }
       }
     },
-    "dialog.saveWorkspaceAction.ok": {
+    "dialog.saveWorkspaceLayout.makeDefaultCheckbox": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use as default for new workspaces"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新規ワークスペースのデフォルトとして使用"
+          }
+        }
+      }
+    },
+    "dialog.saveWorkspaceLayout.ok": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224727,7 +224744,24 @@
         }
       }
     },
-    "dialog.saveWorkspaceAction.save": {
+    "dialog.newWorkspaceDefault.failedTitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't Update Default"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デフォルトを更新できませんでした"
+          }
+        }
+      }
+    },
+    "dialog.saveWorkspaceLayout.save": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224744,7 +224778,7 @@
         }
       }
     },
-    "dialog.saveWorkspaceAction.skippedNote": {
+    "dialog.saveWorkspaceLayout.skippedNote": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224761,24 +224795,24 @@
         }
       }
     },
-    "dialog.saveWorkspaceAction.title": {
+    "dialog.saveWorkspaceLayout.title": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save Workspace as Action"
+            "value": "Save Workspace Layout"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ワークスペースをアクションとして保存"
+            "value": "ワークスペースレイアウトを保存"
           }
         }
       }
     },
-    "dialog.saveWorkspaceAction.urlsHeader": {
+    "dialog.saveWorkspaceLayout.urlsHeader": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224801,13 +224835,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ isn't a valid JSON object, so the action couldn't be added. Fix the file and try again."
+            "value": "%@ isn't a valid JSON object, so the workspace layout couldn't be updated. Fix the file and try again."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ は有効な JSON オブジェクトではないため、アクションを追加できませんでした。ファイルを修正して再試行してください。"
+            "value": "%@ は有効な JSON オブジェクトではないため、ワークスペースレイアウトを更新できませんでした。ファイルを修正して再試行してください。"
           }
         }
       }
@@ -224829,24 +224863,24 @@
         }
       }
     },
-    "menu.newWorkspace.customizeActions": {
+    "menu.newWorkspace.customizeLayouts": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Customize Actions…"
+            "value": "Customize Workspace Layouts…"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "アクションをカスタマイズ…"
+            "value": "ワークスペースレイアウトをカスタマイズ…"
           }
         }
       }
     },
-    "menu.newWorkspace.deleteActionAlternate": {
+    "menu.newWorkspace.deleteLayoutAlternate": {
       "extractionState": "manual",
       "localizations": {
         "en": {
@@ -224863,36 +224897,70 @@
         }
       }
     },
-    "menu.newWorkspace.deleteActionSubmenu": {
+    "menu.newWorkspace.deleteLayoutSubmenu": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Delete Action"
+            "value": "Delete Workspace Layout"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "アクションを削除"
+            "value": "ワークスペースレイアウトを削除"
           }
         }
       }
     },
-    "menu.newWorkspace.saveWorkspaceAsAction": {
+    "menu.newWorkspace.defaultLayoutSubmenu": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save Workspace as Action…"
+            "value": "Default for New Workspace"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ワークスペースをアクションとして保存…"
+            "value": "新規ワークスペースのデフォルト"
+          }
+        }
+      }
+    },
+    "menu.newWorkspace.defaultLayoutNone": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None (Blank Terminal)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なし（空のターミナル）"
+          }
+        }
+      }
+    },
+    "menu.newWorkspace.saveWorkspaceAsLayout": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save as Workspace Layout…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ワークスペースレイアウトとして保存…"
           }
         }
       }
