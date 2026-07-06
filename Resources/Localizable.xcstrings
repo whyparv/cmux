@@ -41646,6 +41646,631 @@
         }
       }
     },
+    "cli.ssh.autoReconnect.status": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] انتهى ssh بالحالة %s؛ جارٍ إعادة الاتصال (المحاولة %s/%s)."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh je završio sa statusom %s; ponovno povezivanje (pokušaj %s/%s)."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh afsluttede med status %s; genopretter forbindelse (forsøg %s/%s)."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh wurde mit Status %s beendet; erneuter Verbindungsaufbau (Versuch %s/%s)."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh exited with status %s; reconnecting (attempt %s/%s)."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh terminó con el estado %s; reconectando (intento %s/%s)."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh s’est arrêté avec l’état %s ; reconnexion (tentative %s/%s)."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh è terminato con stato %s; riconnessione in corso (tentativo %s/%s)."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh はステータス %s で終了しました。再接続しています（試行 %s/%s）。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh បានបញ្ចប់ដោយស្ថានភាព %s; កំពុងភ្ជាប់ឡើងវិញ (ការព្យាយាម %s/%s)។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh가 상태 %s로 종료되었습니다. 다시 연결 중입니다(시도 %s/%s)."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh avsluttet med status %s; kobler til på nytt (forsøk %s/%s)."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh zakończył działanie ze statusem %s; ponowne łączenie (próba %s/%s)."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh saiu com status %s; reconectando (tentativa %s/%s)."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh завершился со статусом %s; переподключение (попытка %s/%s)."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh ออกจากการทำงานด้วยสถานะ %s; กำลังเชื่อมต่อใหม่ (ครั้งที่ %s/%s)"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh %s durumuyla çıktı; yeniden bağlanıyor (deneme %s/%s)."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh завершився зі статусом %s; повторне підключення (спроба %s/%s)."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh 已退出，状态为 %s；正在重新连接（第 %s/%s 次）。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh 已結束，狀態為 %s；正在重新連線（第 %s/%s 次）。"
+          }
+        }
+      }
+    },
+    "cli.ssh.autoReconnect.stopHint": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] أغلق هذا الجزء أو اضغط Ctrl-C لإيقاف إعادة الاتصال."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] zatvorite ovo okno ili pritisnite Ctrl-C za zaustavljanje ponovnog povezivanja."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] luk denne rude, eller tryk Ctrl-C for at stoppe genoprettelsen."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] schließen Sie diesen Bereich oder drücken Sie Ctrl-C, um das erneute Verbinden zu stoppen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] close this pane or press Ctrl-C to stop reconnecting."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] cierra este panel o pulsa Ctrl-C para detener la reconexión."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] fermez ce volet ou appuyez sur Ctrl-C pour arrêter la reconnexion."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] chiudi questo riquadro o premi Ctrl-C per interrompere la riconnessione."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 再接続を停止するには、このペインを閉じるか Ctrl-C を押してください。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] បិទផ្ទាំងនេះ ឬចុច Ctrl-C ដើម្បីបញ្ឈប់ការភ្ជាប់ឡើងវិញ។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 다시 연결을 중지하려면 이 창을 닫거나 Ctrl-C를 누르세요."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] lukk denne ruten eller trykk Ctrl-C for å stoppe ny tilkobling."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] zamknij ten panel albo naciśnij Ctrl-C, aby zatrzymać ponowne łączenie."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] feche este painel ou pressione Ctrl-C para interromper a reconexão."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] закройте эту панель или нажмите Ctrl-C, чтобы остановить переподключение."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ปิดบานหน้าต่างนี้หรือกด Ctrl-C เพื่อหยุดการเชื่อมต่อใหม่"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] yeniden bağlanmayı durdurmak için bu bölmeyi kapatın veya Ctrl-C'ye basın."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] закрийте цю панель або натисніть Ctrl-C, щоб зупинити повторне підключення."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 关闭此窗格或按 Ctrl-C 停止重新连接。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 關閉此窗格或按 Ctrl-C 停止重新連線。"
+          }
+        }
+      }
+    },
+    "cli.ssh.manualReconnectPrompt.detail": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ربما تم إيقاف الجهاز الافتراضي البعيد مؤقتًا أو حذفه أو فقد الاتصال بالشبكة."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] udaljeni VM je možda pauziran, uništen ili je izgubio mrežu."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] den eksterne VM kan være sat på pause, slettet eller have mistet netværket."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] die Remote-VM wurde möglicherweise angehalten, gelöscht oder hat die Netzwerkverbindung verloren."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] the remote VM may have been paused, destroyed, or lost network."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] la VM remota puede estar pausada, destruida o sin conexión de red."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] la VM distante a peut-être été suspendue, détruite ou a perdu le réseau."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] la VM remota potrebbe essere stata messa in pausa, eliminata o aver perso la rete."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] リモート VM は一時停止、削除、またはネットワーク切断された可能性があります。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] VM ពីចម្ងាយអាចត្រូវបានផ្អាក លុបចោល ឬបាត់បង់បណ្តាញ។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 원격 VM이 일시 중지, 삭제되었거나 네트워크 연결이 끊겼을 수 있습니다."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] den eksterne VM-en kan være satt på pause, slettet eller ha mistet nettverket."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] zdalna VM mogła zostać wstrzymana, usunięta lub utracić sieć."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] a VM remota pode ter sido pausada, destruída ou perdido a rede."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] удаленная VM могла быть приостановлена, удалена или потерять сеть."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] VM ระยะไกลอาจถูกพัก ถูกลบ หรือสูญเสียการเชื่อมต่อเครือข่าย"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] uzak VM duraklatılmış, silinmiş veya ağ bağlantısını kaybetmiş olabilir."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] віддалену VM могло бути призупинено, видалено або вона втратила мережу."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 远程 VM 可能已暂停、被销毁或失去网络连接。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 遠端 VM 可能已暫停、被刪除或失去網路連線。"
+          }
+        }
+      }
+    },
+    "cli.ssh.manualReconnectPrompt.prompt": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] اضغط Enter لإغلاق هذا الجزء. اضغط r ثم Enter لإعادة الاتصال."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] pritisnite Enter za zatvaranje ovog okna. Pritisnite r pa Enter za ponovno povezivanje."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] tryk på Enter for at lukke denne rude. Tryk på r og derefter Enter for at genoprette forbindelsen."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] drücken Sie Enter, um diesen Bereich zu schließen. Drücken Sie r und dann Enter zum erneuten Verbinden."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] press Enter to close this pane. Press r then Enter to reconnect."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] pulsa Enter para cerrar este panel. Pulsa r y luego Enter para reconectar."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] appuyez sur Entrée pour fermer ce volet. Appuyez sur r puis Entrée pour reconnecter."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] premi Invio per chiudere questo riquadro. Premi r e poi Invio per riconnettere."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 閉じるには Enter を押してください。再接続するには r を押して Enter を押してください。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ចុច Enter ដើម្បីបិទផ្ទាំងនេះ។ ចុច r បន្ទាប់មក Enter ដើម្បីភ្ជាប់ឡើងវិញ។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 이 창을 닫으려면 Enter를 누르세요. 다시 연결하려면 r을 누른 뒤 Enter를 누르세요."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] trykk Enter for å lukke denne ruten. Trykk r og deretter Enter for å koble til på nytt."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] naciśnij Enter, aby zamknąć ten panel. Naciśnij r, a potem Enter, aby połączyć ponownie."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] pressione Enter para fechar este painel. Pressione r e depois Enter para reconectar."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] нажмите Enter, чтобы закрыть эту панель. Нажмите r, затем Enter, чтобы переподключиться."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] กด Enter เพื่อปิดบานหน้าต่างนี้ กด r แล้วกด Enter เพื่อเชื่อมต่อใหม่"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] bu bölmeyi kapatmak için Enter'a basın. Yeniden bağlanmak için r sonra Enter'a basın."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] натисніть Enter, щоб закрити цю панель. Натисніть r, потім Enter, щоб повторно підключитися."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 按 Enter 关闭此窗格。按 r 后再按 Enter 重新连接。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 按 Enter 關閉此窗格。按 r 再按 Enter 重新連線。"
+          }
+        }
+      }
+    },
+    "cli.ssh.manualReconnectPrompt.status": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] انتهى ssh بالحالة %s."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh je završio sa statusom %s."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh afsluttede med status %s."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh wurde mit Status %s beendet."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh exited with status %s."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh terminó con el estado %s."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh s’est arrêté avec l’état %s."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh è terminato con stato %s."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh はステータス %s で終了しました。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh បានបញ្ចប់ដោយមានស្ថានភាព %s។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh가 상태 %s로 종료되었습니다."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh avsluttet med status %s."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh zakończył działanie ze statusem %s."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh saiu com status %s."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh завершился со статусом %s."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh ออกจากการทำงานด้วยสถานะ %s"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh %s durumuyla çıktı."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh завершився зі статусом %s."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh 已退出，状态为 %s。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ssh 已結束，狀態為 %s。"
+          }
+        }
+      }
+    },
     "cli.tmuxCompat.respawnPane.requiresForce": {
       "extractionState": "manual",
       "localizations": {
@@ -206226,6 +206851,131 @@
           "stringUnit": {
             "state": "translated",
             "value": "붙여넣기"
+          }
+        }
+      }
+    },
+    "terminalContextMenu.reconnectPane": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إعادة توصيل الجزء"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ponovo poveži okno"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Genopret forbindelse til rude"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bereich erneut verbinden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reconnect Pane"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reconectar panel"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reconnecter le volet"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riconnetti riquadro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペインを再接続"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ភ្ជាប់ផ្ទាំងឡើងវិញ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "창 재연결"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koble til rute på nytt"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Połącz panel ponownie"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reconectar painel"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переподключить панель"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เชื่อมต่อบานหน้าต่างใหม่"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bölmeyi yeniden bağla"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторно підключити панель"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新连接窗格"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新連線窗格"
           }
         }
       }
