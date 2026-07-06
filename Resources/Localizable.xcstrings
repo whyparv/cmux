@@ -220833,6 +220833,40 @@
           }
         }
       }
+    },
+    "dialog.saveWorkspaceAction.urlsHeader": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URLs that will be saved:"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存される URL:"
+          }
+        }
+      }
+    },
+    "dialog.saveWorkspaceAction.envHeader": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Environment variables whose values will be saved:"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "値が保存される環境変数:"
+          }
+        }
+      }
     }
   },
   "version": "1.0"
