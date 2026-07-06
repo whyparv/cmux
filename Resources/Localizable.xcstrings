@@ -127088,6 +127088,40 @@
         }
       }
     },
+    "settings.account.pro.activeSubtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Pro subscription is active. Manage billing or cancel in Stripe."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro サブスクリプションは有効です。Stripe で請求管理やキャンセルができます。"
+          }
+        }
+      }
+    },
+    "settings.account.pro.manageBilling": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage billing"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請求を管理"
+          }
+        }
+      }
+    },
     "settings.account.pro.subtitle": {
       "extractionState": "manual",
       "localizations": {
