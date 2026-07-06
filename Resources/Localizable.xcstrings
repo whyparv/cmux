@@ -224954,13 +224954,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save as Workspace Layout…"
+            "value": "Save Workspace as Layout…"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ワークスペースレイアウトとして保存…"
+            "value": "ワークスペースをレイアウトとして保存…"
           }
         }
       }
