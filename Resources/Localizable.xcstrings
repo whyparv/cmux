@@ -129997,6 +129997,23 @@
         }
       }
     },
+    "settings.account.pro.externalSubtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your subscription is managed by our previous billing system. Contact support to make changes."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サブスクリプションは以前の請求システムで管理されています。変更するにはサポートにお問い合わせください。"
+          }
+        }
+      }
+    },
     "settings.account.pro.manageBilling": {
       "extractionState": "manual",
       "localizations": {
