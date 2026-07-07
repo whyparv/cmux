@@ -104941,10 +104941,52 @@
     "memoryPressure.critical.body": {
       "extractionState": "manual",
       "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يبلغ macOS عن ضغط ذاكرة حرج مستمر. حرر cmux الموارد المخفية؛ أغلق مساحات العمل الخاملة أو أعد تشغيل cmux إذا استمر الضغط."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS prijavljuje trajni kritični memorijski pritisak. cmux je oslobodio skrivene resurse; zatvorite neaktivne radne prostore ili ponovo pokrenite cmux ako se pritisak nastavi."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS rapporterer vedvarende kritisk hukommelsespres. cmux har frigivet skjulte ressourcer; luk inaktive arbejdsområder, eller genstart cmux, hvis presset fortsætter."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS meldet anhaltenden kritischen Speicherdruck. cmux hat ausgeblendete Ressourcen freigegeben; schließen Sie inaktive Workspaces oder starten Sie cmux neu, wenn der Druck anhält."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
             "value": "macOS is reporting sustained critical memory pressure. cmux has shed hidden resources; close idle workspaces or restart cmux if pressure continues."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS informa presión crítica de memoria sostenida. cmux liberó recursos ocultos; cierra espacios de trabajo inactivos o reinicia cmux si la presión continúa."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS signale une pression mémoire critique persistante. cmux a libéré des ressources masquées ; fermez les espaces de travail inactifs ou redémarrez cmux si la pression continue."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS segnala una pressione di memoria critica persistente. cmux ha liberato risorse nascoste; chiudi le aree di lavoro inattive o riavvia cmux se la pressione continua."
           }
         },
         "ja": {
@@ -104952,16 +104994,118 @@
             "state": "translated",
             "value": "macOS が継続的な重大メモリプレッシャーを報告しています。cmux は非表示のリソースを解放しました。プレッシャーが続く場合は、未使用のワークスペースを閉じるか cmux を再起動してください。"
           }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS가 지속적인 심각한 메모리 압박을 보고하고 있습니다. cmux가 숨겨진 리소스를 해제했습니다. 압박이 계속되면 유휴 작업 공간을 닫거나 cmux를 다시 시작하세요."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS rapporterer vedvarende kritisk minnepress. cmux har frigitt skjulte ressurser; lukk inaktive arbeidsområder eller start cmux på nytt hvis presset fortsetter."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS zgłasza utrzymującą się krytyczną presję pamięci. cmux zwolnił ukryte zasoby; zamknij bezczynne obszary robocze albo uruchom ponownie cmux, jeśli presja się utrzymuje."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O macOS está relatando pressão crítica de memória sustentada. O cmux liberou recursos ocultos; feche áreas de trabalho ociosas ou reinicie o cmux se a pressão continuar."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS сообщает о сохраняющейся критической нехватке памяти. cmux освободил скрытые ресурсы; закройте неактивные рабочие области или перезапустите cmux, если давление продолжается."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS รายงานแรงกดดันหน่วยความจำระดับวิกฤตอย่างต่อเนื่อง cmux ได้ปล่อยทรัพยากรที่ซ่อนอยู่แล้ว ปิดเวิร์กสเปซที่ไม่ได้ใช้งานหรือรีสตาร์ท cmux หากแรงกดดันยังคงอยู่"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS sürekli kritik bellek baskısı bildiriyor. cmux gizli kaynakları serbest bıraktı; baskı sürerse boşta olan çalışma alanlarını kapatın veya cmux'i yeniden başlatın."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS повідомляє про тривалий критичний тиск пам’яті. cmux звільнив приховані ресурси; закрийте неактивні робочі області або перезапустіть cmux, якщо тиск триває."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS 报告持续严重的内存压力。cmux 已释放隐藏资源；如果压力持续，请关闭空闲工作区或重新启动 cmux。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS 回報持續嚴重的記憶體壓力。cmux 已釋放隱藏資源；如果壓力持續，請關閉閒置工作區或重新啟動 cmux。"
+          }
         }
       }
     },
     "memoryPressure.critical.subtitle": {
       "extractionState": "manual",
       "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم تحرير العارضات والمتصفحات المخفية"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skriveni rendereri i preglednici su oslobođeni"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skjulte renderere og browsere blev frigivet"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausgeblendete Renderer und Browser wurden freigegeben"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
             "value": "Hidden renderers and browsers were released"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se liberaron renderizadores y navegadores ocultos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les moteurs de rendu et navigateurs masqués ont été libérés"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renderer e browser nascosti sono stati rilasciati"
           }
         },
         "ja": {
@@ -104969,22 +105113,184 @@
             "state": "translated",
             "value": "非表示のレンダラーとブラウザを解放しました"
           }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "숨겨진 렌더러와 브라우저가 해제되었습니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skjulte renderere og nettlesere ble frigitt"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukryte renderery i przeglądarki zostały zwolnione"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renderizadores e navegadores ocultos foram liberados"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скрытые рендереры и браузеры были освобождены"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปล่อยตัวเรนเดอร์และเบราว์เซอร์ที่ซ่อนอยู่แล้ว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gizli işleyiciler ve tarayıcılar serbest bırakıldı"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Приховані рендерери та браузери звільнено"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已释放隐藏的渲染器和浏览器"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已釋放隱藏的轉譯器和瀏覽器"
+          }
         }
       }
     },
     "memoryPressure.critical.title": {
       "extractionState": "manual",
       "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux تحت ضغط ذاكرة حرج"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux je pod kritičnim memorijskim pritiskom"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux er under kritisk hukommelsespres"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux steht unter kritischem Speicherdruck"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
             "value": "cmux is under critical memory pressure"
           }
         },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux está bajo presión crítica de memoria"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux subit une pression mémoire critique"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux è sotto pressione di memoria critica"
+          }
+        },
         "ja": {
           "stringUnit": {
             "state": "translated",
             "value": "cmux に重大なメモリプレッシャーがかかっています"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux에 심각한 메모리 압박이 있습니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux er under kritisk minnepress"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux jest pod krytyczną presją pamięci"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux está sob pressão crítica de memória"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux испытывает критическую нехватку памяти"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux อยู่ภายใต้แรงกดดันหน่วยความจำระดับวิกฤต"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux kritik bellek baskısı altında"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux перебуває під критичним тиском пам’яті"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux 正处于严重内存压力下"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux 正處於嚴重記憶體壓力下"
           }
         }
       }
