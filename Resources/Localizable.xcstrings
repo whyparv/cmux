@@ -59234,6 +59234,23 @@
         }
       }
     },
+    "command.toggleFullWidthTab.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toggle Full Width Tab"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全幅タブを切り替え"
+          }
+        }
+      }
+    },
     "command.toggleSplitZoom.title": {
       "extractionState": "manual",
       "localizations": {
