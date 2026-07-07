@@ -127435,6 +127435,131 @@
         }
       }
     },
+    "remoteTmux.error.tmuxNotFound": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لم يتم العثور على tmux على %@. يعكس cmux ssh-tmux خادم tmux بعيدًا (يتطلب tmux الإصدار %@ أو أحدث).\nثبّته على المضيف: brew install tmux (macOS)، apt install tmux (Debian/Ubuntu)، dnf install tmux (Fedora)."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux nije pronađen na %@. cmux ssh-tmux zrcali udaljeni tmux server (potreban je tmux %@ ili noviji).\nInstalirajte ga na host: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux blev ikke fundet på %@. cmux ssh-tmux spejler en ekstern tmux-server (tmux %@ eller nyere kræves).\nInstaller den på værten: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux wurde auf %@ nicht gefunden. cmux ssh-tmux spiegelt einen Remote-tmux-Server (tmux %@ oder neuer erforderlich).\nInstallieren Sie es auf dem Host: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux was not found on %@. cmux ssh-tmux mirrors a remote tmux server (tmux %@ or newer required).\nInstall it on the host: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se encontró tmux en %@. cmux ssh-tmux replica un servidor tmux remoto (se requiere tmux %@ o posterior).\nInstálalo en el host: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux est introuvable sur %@. cmux ssh-tmux met en miroir un serveur tmux distant (tmux %@ ou ultérieur requis).\nInstallez-le sur l’hôte : brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux non è stato trovato su %@. cmux ssh-tmux esegue il mirroring di un server tmux remoto (è richiesto tmux %@ o successivo).\nInstallalo sull'host: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ に tmux が見つかりませんでした。cmux ssh-tmux はリモートの tmux サーバーをミラーリングします（tmux %@ 以降が必要です）。\nホストにインストールするには: brew install tmux（macOS）、apt install tmux（Debian/Ubuntu）、dnf install tmux（Fedora）"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "រក​មិន​ឃើញ tmux នៅ​លើ %@។ cmux ssh-tmux ឆ្លុះបញ្ចាំង​ម៉ាស៊ីនបម្រើ tmux ពីចម្ងាយ (ត្រូវការ tmux %@ ឬ​ថ្មី​ជាងនេះ)។\nដំឡើង​វា​នៅ​លើ​ម៉ាស៊ីន: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@에서 tmux를 찾을 수 없습니다. cmux ssh-tmux는 원격 tmux 서버를 미러링합니다(tmux %@ 이상 필요).\n호스트에 설치하세요: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux ble ikke funnet på %@. cmux ssh-tmux speiler en ekstern tmux-server (tmux %@ eller nyere kreves).\nInstaller den på verten: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie znaleziono tmux na %@. cmux ssh-tmux odzwierciedla zdalny serwer tmux (wymagany tmux %@ lub nowszy).\nZainstaluj go na hoście: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux não foi encontrado em %@. cmux ssh-tmux espelha um servidor tmux remoto (tmux %@ ou mais recente necessário).\nInstale-o no host: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux не найден на %@. cmux ssh-tmux зеркалирует удаленный сервер tmux (требуется tmux %@ или новее).\nУстановите его на хосте: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่พบ tmux บน %@. cmux ssh-tmux มิเรอร์เซิร์ฟเวอร์ tmux ระยะไกล (ต้องใช้ tmux %@ หรือใหม่กว่า)\nติดตั้งบนโฮสต์: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux %@ üzerinde bulunamadı. cmux ssh-tmux uzak bir tmux sunucusunu yansıtır (tmux %@ veya daha yenisi gerekir).\nAna makineye yükleyin: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tmux не знайдено на %@. cmux ssh-tmux віддзеркалює віддалений сервер tmux (потрібен tmux %@ або новіший).\nУстановіть його на хості: brew install tmux (macOS), apt install tmux (Debian/Ubuntu), dnf install tmux (Fedora)."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 %@ 上未找到 tmux。cmux ssh-tmux 会镜像远程 tmux 服务器（需要 tmux %@ 或更高版本）。\n在主机上安装它：brew install tmux（macOS）、apt install tmux（Debian/Ubuntu）、dnf install tmux（Fedora）。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 %@ 上找不到 tmux。cmux ssh-tmux 會鏡像遠端 tmux 伺服器（需要 tmux %@ 或更新版本）。\n在主機上安裝它：brew install tmux（macOS）、apt install tmux（Debian/Ubuntu）、dnf install tmux（Fedora）。"
+          }
+        }
+      }
+    },
     "remoteTmux.error.unreachable": {
       "extractionState": "manual",
       "localizations": {
