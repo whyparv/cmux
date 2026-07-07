@@ -31306,6 +31306,23 @@
         }
       }
     },
+    "cloud.overlay.reconnect.button": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reconnect"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再接続"
+          }
+        }
+      }
+    },
     "cli.error.dismissNotificationSelector": {
       "extractionState": "manual",
       "localizations": {
