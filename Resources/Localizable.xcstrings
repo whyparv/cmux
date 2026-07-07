@@ -41629,6 +41629,23 @@
         }
       }
     },
+    "cli.sshPtyAttach.remoteSessionLostRespawn": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] remote session was lost; starting a new shell."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] リモートセッションが失われました。新しいシェルを開始します。"
+          }
+        }
+      }
+    },
     "cli.socket.error.conflictingEnvironment": {
       "extractionState": "manual",
       "localizations": {
