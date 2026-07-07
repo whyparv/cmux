@@ -104938,6 +104938,57 @@
         }
       }
     },
+    "memoryPressure.critical.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS is reporting sustained critical memory pressure. cmux has shed hidden resources; close idle workspaces or restart cmux if pressure continues."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS が継続的な重大メモリプレッシャーを報告しています。cmux は非表示のリソースを解放しました。プレッシャーが続く場合は、未使用のワークスペースを閉じるか cmux を再起動してください。"
+          }
+        }
+      }
+    },
+    "memoryPressure.critical.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hidden renderers and browsers were released"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "非表示のレンダラーとブラウザを解放しました"
+          }
+        }
+      }
+    },
+    "memoryPressure.critical.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux is under critical memory pressure"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux に重大なメモリプレッシャーがかかっています"
+          }
+        }
+      }
+    },
     "menu.app.about": {
       "extractionState": "manual",
       "localizations": {
