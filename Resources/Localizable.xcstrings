@@ -124213,6 +124213,23 @@
         }
       }
     },
+    "pricing.pro.workspace.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Pro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Pro"
+          }
+        }
+      }
+    },
     "pricing.subtitle": {
       "extractionState": "manual",
       "localizations": {
