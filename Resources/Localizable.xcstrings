@@ -228445,6 +228445,40 @@
         }
       }
     },
+    "command.newAgentChat.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agent Chat"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agent Chat"
+          }
+        }
+      }
+    },
+    "command.newAgentChat.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New agent chat"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新しいエージェントチャット"
+          }
+        }
+      }
+    },
     "command.cmuxConfig.builtInSubtitle": {
       "extractionState": "manual",
       "localizations": {
@@ -228883,6 +228917,91 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ を読み込めませんでした。"
+          }
+        }
+      }
+    },
+    "notification.agentChat.serverUnavailable.bodyDefault": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux couldn't reach %@. Start the server with cmux-chat or configure agentChat.startCommand in cmux.json."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux は %@ に接続できませんでした。cmux-chat でサーバーを起動するか、cmux.json で agentChat.startCommand を設定してください。"
+          }
+        }
+      }
+    },
+    "notification.agentChat.serverUnavailable.bodyWithCommand": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux couldn't reach %@. Start it with: %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux は %@ に接続できませんでした。次のコマンドで起動してください: %@"
+          }
+        }
+      }
+    },
+    "notification.agentChat.serverUnavailable.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opened Agent Chat"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agent Chat を開きました"
+          }
+        }
+      }
+    },
+    "notification.agentChat.serverUnavailable.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agent chat server isn't running"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agent Chat サーバーが起動していません"
+          }
+        }
+      }
+    },
+    "workspace.agentChat.defaultTitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agent Chat"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agent Chat"
           }
         }
       }
