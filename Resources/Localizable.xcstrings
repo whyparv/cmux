@@ -225872,121 +225872,121 @@
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "إلغاء التجميع"
+            "value": "إلغاء تجميع مساحات العمل"
           }
         },
         "bs": {
           "stringUnit": {
             "state": "translated",
-            "value": "Razgrupiši"
+            "value": "Razgrupiši radne prostore"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Opdel gruppe"
+            "value": "Opdel arbejdsområder"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gruppe auflösen"
+            "value": "Arbeitsbereiche auflösen"
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ungroup"
+            "value": "Ungroup Workspaces"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Desagrupar"
+            "value": "Desagrupar espacios de trabajo"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dissocier"
+            "value": "Dissocier les espaces de travail"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dividi gruppo"
+            "value": "Separa aree di lavoro"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "グループ解除"
+            "value": "ワークスペースのグループ解除"
           }
         },
         "km": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ungroup"
+            "value": "Ungroup Workspaces"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "그룹 해제"
+            "value": "작업 공간 그룹 해제"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Oppløs gruppe"
+            "value": "Oppløs arbeidsområder"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Rozgrupuj"
+            "value": "Rozgrupuj przestrzenie"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Desagrupar"
+            "value": "Desagrupar áreas de trabalho"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Разгруппировать"
+            "value": "Разгруппировать рабочие пространства"
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "เลิกจัดกลุ่ม"
+            "value": "เลิกจัดกลุ่มเวิร์กสเปซ"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Grubu çöz"
+            "value": "Çalışma alanlarını gruptan çıkar"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Розгрупувати"
+            "value": "Розгрупувати робочі області"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "解散分组"
+            "value": "取消工作区分组"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "解散群組"
+            "value": "取消工作區群組"
           }
         }
       }
