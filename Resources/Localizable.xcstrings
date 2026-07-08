@@ -224747,121 +224747,246 @@
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "حذف المجموعة (إغلاق مساحات العمل)"
+            "value": "حذف المجموعة"
           }
         },
         "bs": {
           "stringUnit": {
             "state": "translated",
-            "value": "Obriši grupu (zatvori radne prostore)"
+            "value": "Obriši grupu"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Slet gruppe (luk arbejdsområder)"
+            "value": "Slet gruppe"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Gruppe löschen (Arbeitsbereiche schließen)"
+            "value": "Gruppe löschen"
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Delete Group (Close Workspaces)"
+            "value": "Delete Group"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Eliminar grupo (cerrar espacios de trabajo)"
+            "value": "Eliminar grupo"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Supprimer le groupe (fermer les espaces de travail)"
+            "value": "Supprimer le groupe"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Elimina gruppo (chiudi aree di lavoro)"
+            "value": "Elimina gruppo"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "グループを削除（ワークスペースを閉じる）"
+            "value": "グループを削除"
           }
         },
         "km": {
           "stringUnit": {
             "state": "translated",
-            "value": "Delete Group (Close Workspaces)"
+            "value": "Delete Group"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "그룹 삭제(작업 공간 닫기)"
+            "value": "그룹 삭제"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Slett gruppe (lukk arbeidsområder)"
+            "value": "Slett gruppe"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Usuń grupę (zamknij przestrzenie)"
+            "value": "Usuń grupę"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Excluir grupo (fechar áreas de trabalho)"
+            "value": "Excluir grupo"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Удалить группу (закрыть рабочие пространства)"
+            "value": "Удалить группу"
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "ลบกลุ่ม (ปิดเวิร์กสเปซ)"
+            "value": "ลบกลุ่ม"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Grubu sil (çalışma alanlarını kapat)"
+            "value": "Grubu sil"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Видалити групу (закрити робочі області)"
+            "value": "Видалити групу"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "删除分组（关闭工作区）"
+            "value": "删除分组"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "刪除群組（關閉工作區）"
+            "value": "刪除群組"
+          }
+        }
+      }
+    },
+    "workspaceGroup.contextMenu.deleteAndCloseWorkspaces": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حذف المجموعة وإغلاق مساحات العمل..."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obriši grupu i zatvori radne prostore..."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slet gruppe og luk arbejdsområder..."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gruppe löschen und Arbeitsbereiche schließen..."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete Group and Close Workspaces..."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar grupo y cerrar espacios de trabajo..."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer le groupe et fermer les espaces de travail..."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina gruppo e chiudi aree di lavoro..."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "グループを削除してワークスペースを閉じる..."
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete Group and Close Workspaces..."
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "그룹 삭제 및 작업 공간 닫기..."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slett gruppe og lukk arbeidsområder..."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń grupę i zamknij przestrzenie..."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excluir grupo e fechar áreas de trabalho..."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить группу и закрыть рабочие пространства..."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบกลุ่มและปิดพื้นที่ทำงาน..."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grubu sil ve çalışma alanlarını kapat..."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Видалити групу й закрити робочі простори..."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除分组并关闭工作区..."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刪除群組並關閉工作區..."
           }
         }
       }
