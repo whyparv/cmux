@@ -82249,6 +82249,256 @@
         }
       }
     },
+    "dialog.saveWorkspaceLayout.commandTooLongMessage": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أمر واحد أو أكثر من الأوامر الملتقطة أطول من %lld بايت UTF-8 ولا يمكن إعادة تشغيلها بشكل موثوق من تخطيط محفوظ. اختصرها قبل الحفظ."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jedna ili više snimljenih komandi duže su od %lld UTF-8 bajtova i ne mogu se pouzdano ponovo pokrenuti iz spremljenog rasporeda. Skratite ih prije spremanja."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En eller flere registrerede kommandoer er længere end %lld UTF-8-byte og kan ikke afspilles pålideligt fra et gemt layout. Gør dem kortere, før du gemmer."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein oder mehrere erfasste Befehle sind länger als %lld UTF-8-Bytes und können aus einem gespeicherten Layout nicht zuverlässig erneut ausgeführt werden. Kürze sie vor dem Speichern."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One or more captured commands are longer than %lld UTF-8 bytes and cannot be replayed reliably from a saved layout. Shorten them before saving."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uno o más comandos capturados superan los %lld bytes UTF-8 y no pueden reproducirse de forma fiable desde un diseño guardado. Acórtalos antes de guardar."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une ou plusieurs commandes capturées dépassent %lld octets UTF-8 et ne peuvent pas être relancées de manière fiable depuis une disposition enregistrée. Raccourcissez-les avant d’enregistrer."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uno o più comandi acquisiti superano %lld byte UTF-8 e non possono essere rieseguiti in modo affidabile da un layout salvato. Accorciali prima di salvare."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取得したコマンドの一部が %lld UTF-8 バイトを超えているため、保存したレイアウトから確実に再実行できません。保存する前に短くしてください。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ពាក្យបញ្ជាដែលបានចាប់យកមួយ ឬច្រើន វែងជាង %lld បៃ UTF-8 ហើយមិនអាចដំណើរការឡើងវិញពីប្លង់ដែលបានរក្សាទុកបានយ៉ាងទុកចិត្ត។ សូមបង្រួមវាមុនពេលរក្សាទុក។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "캡처된 명령 하나 이상이 %lld UTF-8바이트보다 길어 저장된 레이아웃에서 안정적으로 다시 실행할 수 없습니다. 저장하기 전에 줄이세요."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Én eller flere fangede kommandoer er lengre enn %lld UTF-8-byte og kan ikke kjøres på nytt pålitelig fra et lagret oppsett. Forkort dem før du lagrer."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jedno lub więcej przechwyconych poleceń ma więcej niż %lld bajtów UTF-8 i nie można ich niezawodnie odtworzyć z zapisanego układu. Skróć je przed zapisaniem."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Um ou mais comandos capturados têm mais de %lld bytes UTF-8 e não podem ser reexecutados de forma confiável a partir de um layout salvo. Encurte-os antes de salvar."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Одна или несколько захваченных команд длиннее %lld байт UTF-8 и не могут надежно запускаться из сохраненного макета. Сократите их перед сохранением."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คำสั่งที่จับไว้หนึ่งรายการขึ้นไปยาวเกิน %lld ไบต์ UTF-8 และไม่สามารถเรียกใช้ซ้ำจากเลย์เอาต์ที่บันทึกไว้ได้อย่างน่าเชื่อถือ โปรดย่อให้สั้นลงก่อนบันทึก"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yakalanan komutlardan biri veya daha fazlası %lld UTF-8 bayttan uzun ve kaydedilmiş bir düzenden güvenilir şekilde yeniden çalıştırılamaz. Kaydetmeden önce kısaltın."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Одна або кілька захоплених команд довші за %lld байтів UTF-8 і не можуть надійно запускатися зі збереженого макета. Скоротіть їх перед збереженням."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一个或多个捕获的命令超过 %lld 个 UTF-8 字节，无法从已保存的布局中可靠地重新运行。请先缩短再保存。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一個或多個擷取的指令超過 %lld 個 UTF-8 位元組，無法從已儲存的佈局可靠地重新執行。請先縮短再儲存。"
+          }
+        }
+      }
+    },
+    "dialog.saveWorkspaceLayout.commandTooLongTitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الأمر طويل جدًا للحفظ"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Komanda je preduga za spremanje"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kommandoen er for lang til at gemme"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Befehl ist zu lang zum Speichern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Command Too Long to Save"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El comando es demasiado largo para guardarlo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commande trop longue à enregistrer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comando troppo lungo da salvare"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コマンドが長すぎて保存できません"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ពាក្យបញ្ជាវែងពេក មិនអាចរក្សាទុកបាន"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "명령이 너무 길어 저장할 수 없음"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kommandoen er for lang til å lagres"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Polecenie jest zbyt długie do zapisania"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comando longo demais para salvar"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Команда слишком длинная для сохранения"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คำสั่งยาวเกินกว่าจะบันทึก"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Komut kaydetmek için çok uzun"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Команда задовга для збереження"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "命令太长，无法保存"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "指令太長，無法儲存"
+          }
+        }
+      }
+    },
     "dialog.saveWorkspaceLayout.commandsHeader": {
       "extractionState": "manual",
       "localizations": {
