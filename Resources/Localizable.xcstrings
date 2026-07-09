@@ -231875,6 +231875,23 @@
           }
         }
       }
+    },
+    "notification.agentChat.serverUnavailable.subtitleLaunchFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not start Agent Chat"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "エージェントチャットを起動できませんでした"
+          }
+        }
+      }
     }
   },
   "version": "1.0"
