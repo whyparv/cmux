@@ -116884,19 +116884,19 @@
         }
       }
     },
-    "menu.newWorkspace.customizeLayouts": {
+    "menu.newWorkspace.defaultBadge": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Customize Workspace Layouts…"
+            "value": "Default"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ワークスペースレイアウトをカスタマイズ…"
+            "value": "デフォルト"
           }
         }
       }
@@ -116965,6 +116965,40 @@
           "stringUnit": {
             "state": "translated",
             "value": "ワークスペースレイアウトを削除"
+          }
+        }
+      }
+    },
+    "menu.newWorkspace.layoutsHeader": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Layouts"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "レイアウト"
+          }
+        }
+      }
+    },
+    "menu.newWorkspace.manageLayouts": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Layouts"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "レイアウトを管理"
           }
         }
       }
@@ -146065,6 +146099,57 @@
           "stringUnit": {
             "state": "translated",
             "value": "新規ワークスペースはフォーカス中のワークスペースの作業ディレクトリで開始します。"
+          }
+        }
+      }
+    },
+    "settings.app.workspaceLayouts": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workspace Layouts"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ワークスペースレイアウト"
+          }
+        }
+      }
+    },
+    "settings.app.workspaceLayouts.customize": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Customize…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カスタマイズ…"
+          }
+        }
+      }
+    },
+    "settings.app.workspaceLayouts.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit the saved layouts offered in the new-workspace menu."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新規ワークスペースメニューに表示される保存済みレイアウトを編集します。"
           }
         }
       }
