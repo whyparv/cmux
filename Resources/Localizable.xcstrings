@@ -230821,6 +230821,40 @@
           }
         }
       }
+    },
+    "featureFlags.agentChat.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agent chat UI"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "エージェントチャットUI"
+          }
+        }
+      }
+    },
+    "featureFlags.agentChat.description": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shows the Agent chat entrypoints in the new-workspace dropdown, command palette, and surface tab bar."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新規ワークスペースのドロップダウン、コマンドパレット、サーフェスタブバーにエージェントチャットの入口を表示します。"
+          }
+        }
+      }
     }
   },
   "version": "1.0"
