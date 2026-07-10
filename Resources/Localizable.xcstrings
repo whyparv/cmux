@@ -56492,6 +56492,23 @@
         }
       }
     },
+    "command.pro.welcomeChecklist.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome to cmux Pro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Pro へようこそ"
+          }
+        }
+      }
+    },
     "command.renameTab.title": {
       "extractionState": "manual",
       "localizations": {
@@ -112787,6 +112804,23 @@
         }
       }
     },
+    "menu.help.showProWelcomeChecklist": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Pro Welcome Checklist…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro ウェルカムチェックリストを表示…"
+          }
+        }
+      }
+    },
     "menu.help.skills": {
       "extractionState": "manual",
       "localizations": {
@@ -129234,6 +129268,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "テスト: %d"
+          }
+        }
+      }
+    },
+    "proWelcome.workspace.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome to cmux Pro"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Pro へようこそ"
           }
         }
       }
