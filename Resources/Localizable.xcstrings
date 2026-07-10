@@ -41771,6 +41771,23 @@
         }
       }
     },
+    "cli.socket.error.workspaceNotClosed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workspace not closed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ワークスペースを閉じられませんでした"
+          }
+        }
+      }
+    },
     "cli.ssh.autoReconnect.status": {
       "extractionState": "manual",
       "localizations": {
