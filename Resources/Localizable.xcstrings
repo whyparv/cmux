@@ -183382,6 +183382,131 @@
         }
       }
     },
+    "settings.window.runtimeUnavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعذّر تحميل الإعدادات. يُرجى إعادة تشغيل cmux والإبلاغ عن هذه المشكلة."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Postavke se nisu mogle učitati. Ponovo pokrenite cmux i prijavite ovaj problem."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indstillingerne kunne ikke indlæses. Genstart cmux, og rapportér dette problem."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Einstellungen konnten nicht geladen werden. Bitte starte cmux neu und melde dieses Problem."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings could not load. Please restart cmux and report this issue."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se pudieron cargar los ajustes. Reinicia cmux e informa de este problema."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de charger les réglages. Veuillez redémarrer cmux et signaler ce problème."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile caricare le impostazioni. Riavvia cmux e segnala questo problema."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定を読み込めませんでした。cmux を再起動して、この問題を報告してください。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "មិនអាចផ្ទុកការកំណត់បានទេ។ សូមចាប់ផ្ដើម cmux ឡើងវិញ ហើយរាយការណ៍អំពីបញ្ហានេះ។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "설정을 불러올 수 없습니다. cmux를 다시 시작하고 이 문제를 신고해 주세요."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Innstillingene kunne ikke lastes. Start cmux på nytt og rapporter dette problemet."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się wczytać ustawień. Uruchom cmux ponownie i zgłoś ten problem."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foi possível carregar os ajustes. Reinicie o cmux e informe este problema."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось загрузить настройки. Перезапустите cmux и сообщите об этой проблеме."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่สามารถโหลดการตั้งค่าได้ โปรดรีสตาร์ท cmux และรายงานปัญหานี้"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar yüklenemedi. Lütfen cmux'u yeniden başlatın ve bu sorunu bildirin."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не вдалося завантажити налаштування. Перезапустіть cmux і повідомте про цю проблему."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法加载设置。请重启 cmux 并报告此问题。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法載入設定。請重新啟動 cmux 並回報此問題。"
+          }
+        }
+      }
+    },
     "settings.workspaceColors.base": {
       "extractionState": "manual",
       "localizations": {
