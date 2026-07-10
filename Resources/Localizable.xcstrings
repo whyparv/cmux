@@ -205242,6 +205242,57 @@
         }
       }
     },
+    "socket.pane.resize.invalidParameters": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid pane resize parameters"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペインのサイズ変更パラメータが無効です"
+          }
+        }
+      }
+    },
+    "socket.pane.resize.localMetricsUnavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pane resize metrics are not ready; wait for the pane to finish loading and retry."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペインのサイズ変更メトリクスの準備ができていません。ペインの読み込みが完了してからもう一度お試しください。"
+          }
+        }
+      }
+    },
+    "socket.pane.resize.remoteUnavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The remote tmux pane is not ready to resize; wait for it to become available and retry."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リモート tmux ペインのサイズを変更する準備ができていません。利用可能になってからもう一度お試しください。"
+          }
+        }
+      }
+    },
     "socket.terminal.inputQueueFull": {
       "extractionState": "manual",
       "localizations": {
