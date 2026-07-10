@@ -100733,6 +100733,40 @@
         }
       }
     },
+    "featureFlags.sidebarWorkspaceAgentSpinner.description": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shows a spinner in workspace rows while coding agents are running."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コーディングエージェントの実行中にワークスペース行にスピナーを表示します。"
+          }
+        }
+      }
+    },
+    "featureFlags.sidebarWorkspaceAgentSpinner.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workspace agent spinner"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ワークスペースのエージェントスピナー"
+          }
+        }
+      }
+    },
     "featureFlags.source.default": {
       "extractionState": "manual",
       "localizations": {
