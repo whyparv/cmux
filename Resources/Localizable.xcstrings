@@ -1820,6 +1820,23 @@
         }
       }
     },
+    "agent.ollama.displayName": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ollama"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ollama"
+          }
+        }
+      }
+    },
     "agent.generic.notification.subtitle.error": {
       "extractionState": "manual",
       "localizations": {
