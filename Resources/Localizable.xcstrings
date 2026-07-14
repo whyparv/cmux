@@ -32385,6 +32385,131 @@
         }
       }
     },
+    "cli.help.ssh-tmux.newWindow": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خيار إضافي:\n  --new-window        فتح المرآة في نافذة جديدة مخصصة"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodatna opcija:\n  --new-window        Otvori zrcaljenje u namjenskom novom prozoru"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekstra flag:\n  --new-window        Åbn spejlingen i et dedikeret nyt vindue"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zusätzliche Option:\n  --new-window        Spiegel in einem eigenen neuen Fenster öffnen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Additional flag:\n  --new-window        Open the mirror in a dedicated new window"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opción adicional:\n  --new-window        Abrir el reflejo en una nueva ventana dedicada"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Option supplémentaire :\n  --new-window        Ouvrir le miroir dans une nouvelle fenêtre dédiée"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opzione aggiuntiva:\n  --new-window        Apri la replica in una nuova finestra dedicata"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追加フラグ:\n  --new-window        専用の新しいウィンドウでミラーを開く"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ជម្រើសបន្ថែម៖\n  --new-window        បើកការឆ្លុះក្នុងបង្អួចថ្មីដាច់ដោយឡែក"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "추가 플래그:\n  --new-window        전용 새 창에서 미러 열기"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ekstra flagg:\n  --new-window        Åpne speilet i et eget nytt vindu"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodatkowa flaga:\n  --new-window        Otwórz kopię lustrzaną w dedykowanym nowym oknie"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opção adicional:\n  --new-window        Abrir o espelho em uma nova janela dedicada"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дополнительный флаг:\n  --new-window        Открыть зеркало в отдельном новом окне"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แฟล็กเพิ่มเติม:\n  --new-window        เปิดมิเรอร์ในหน้าต่างใหม่แยกต่างหาก"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ek bayrak:\n  --new-window        Yansımayı ayrılmış yeni bir pencerede aç"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Додатковий прапорець:\n  --new-window        Відкрити дзеркало в окремому новому вікні"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "其他选项:\n  --new-window        在专用的新窗口中打开镜像"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "其他選項:\n  --new-window        在專用的新視窗中開啟鏡像"
+          }
+        }
+      }
+    },
     "cli.hooks.antigravity.aborted": {
       "extractionState": "manual",
       "localizations": {
@@ -132508,6 +132633,131 @@
           "stringUnit": {
             "state": "translated",
             "value": "遠端工作階段伺服器太舊（偵測到 %@；cmux 需要版本 %@ 或更新版本）"
+          }
+        }
+      }
+    },
+    "remoteTmux.error.windowCreationFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعذر على cmux إنشاء نافذة جديدة"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux nije mogao kreirati novi prozor"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux kunne ikke oprette et nyt vindue"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux konnte kein neues Fenster erstellen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux could not create a new window"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux no pudo crear una ventana nueva"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux n’a pas pu créer une nouvelle fenêtre"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux non è riuscito a creare una nuova finestra"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux は新しいウインドウを作成できませんでした"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux មិនអាចបង្កើតបង្អួចថ្មីបានទេ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux가 새 창을 만들 수 없습니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux kunne ikke opprette et nytt vindu"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux nie mógł utworzyć nowego okna"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O cmux não conseguiu criar uma nova janela"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux не удалось создать новое окно"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux ไม่สามารถสร้างหน้าต่างใหม่ได้"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux yeni bir pencere oluşturamadı"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux не вдалося створити нове вікно"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux 无法创建新窗口"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux 無法建立新視窗"
           }
         }
       }
