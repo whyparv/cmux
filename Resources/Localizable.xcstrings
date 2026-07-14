@@ -124185,6 +124185,176 @@
         }
       }
     },
+    "mobile.chat.artifact.error.fileNotFound": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That file is no longer available on the Mac."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "そのファイルはMac上で利用できなくなりました。"
+          }
+        }
+      }
+    },
+    "mobile.chat.artifact.error.forbidden": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That file was not referenced by this conversation."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "そのファイルはこの会話で参照されていません。"
+          }
+        }
+      }
+    },
+    "mobile.chat.artifact.error.galleryInvalidParams": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux couldn't tell which session this gallery belongs to."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このギャラリーがどのセッションのものか判別できませんでした。"
+          }
+        }
+      }
+    },
+    "mobile.chat.artifact.error.invalidParams": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux couldn't tell which session or file was requested."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "どのセッションのどのファイルが要求されたか判別できませんでした。"
+          }
+        }
+      }
+    },
+    "mobile.chat.artifact.error.invalidCursor": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The gallery cursor is invalid."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ギャラリーのカーソルが無効です。"
+          }
+        }
+      }
+    },
+    "mobile.chat.artifact.error.sessionNotFound": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That agent session is no longer available."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "そのエージェントセッションは利用できなくなりました。"
+          }
+        }
+      }
+    },
+    "mobile.chat.artifact.error.unsupportedMedia": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This file type cannot be previewed."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このファイル形式はプレビューできません。"
+          }
+        }
+      }
+    },
+    "mobile.terminal.artifact.error.forbidden": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That file is not currently shown in this terminal."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "そのファイルは現在このターミナルに表示されていません。"
+          }
+        }
+      }
+    },
+    "mobile.terminal.artifact.error.invalidParams": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux couldn't tell which terminal or file was requested."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "どのターミナルのどのファイルが要求されたか判別できませんでした。"
+          }
+        }
+      }
+    },
+    "mobile.terminal.artifact.error.terminalNotFound": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That terminal is no longer available."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "そのターミナルは利用できなくなりました。"
+          }
+        }
+      }
+    },
     "mobile.chat.error.interruptNotAccepted": {
       "extractionState": "manual",
       "localizations": {
