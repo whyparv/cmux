@@ -124910,6 +124910,23 @@
         }
       }
     },
+    "notification.desktop.defaultTerminalTitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminal"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ターミナル"
+          }
+        }
+      }
+    },
     "notificationHook.failure.body": {
       "extractionState": "manual",
       "localizations": {
