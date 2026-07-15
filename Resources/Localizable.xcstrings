@@ -207086,6 +207086,40 @@
         }
       }
     },
+    "socket.client.accessDenied": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Access denied - only processes started inside cmux can connect"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アクセスが拒否されました。cmux 内で起動されたプロセスのみ接続できます"
+          }
+        }
+      }
+    },
+    "socket.client.verificationFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unable to verify client process"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クライアントプロセスを確認できません"
+          }
+        }
+      }
+    },
     "socket.notification.dismissSelectorRequired": {
       "extractionState": "manual",
       "localizations": {
