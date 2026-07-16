@@ -176891,6 +176891,40 @@
         }
       }
     },
+    "settings.search.alias.setting.terminal.session-content-alignment": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "terminal.sessionContentAlignment terminal agent chat left center right alignment position"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "terminal.sessionContentAlignment ターミナル エージェントチャット 左 中央 右 配置 位置"
+          }
+        }
+      }
+    },
+    "settings.search.alias.setting.terminal.session-content-width": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "terminal.sessionContentMaxWidth terminal agent chat max width readable line length points pt narrow wide"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "terminal.sessionContentMaxWidth ターミナル エージェントチャット 最大幅 読みやすい 行長 ポイント pt 狭い 広い"
+          }
+        }
+      }
+    },
     "settings.search.alias.setting.terminal.copy-on-select": {
       "extractionState": "manual",
       "localizations": {
@@ -182657,6 +182691,176 @@
           "stringUnit": {
             "state": "translated",
             "value": "ライブ端末数の上限を超えると、アイドル状態のバックグラウンドエージェント端末を休止できます。"
+          }
+        }
+      }
+    },
+    "settings.terminal.sessionContentAlignment": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session Content Alignment"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッションコンテンツの配置"
+          }
+        }
+      }
+    },
+    "settings.terminal.sessionContentAlignment.center": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Center"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "中央"
+          }
+        }
+      }
+    },
+    "settings.terminal.sessionContentAlignment.left": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Left"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "左"
+          }
+        }
+      }
+    },
+    "settings.terminal.sessionContentAlignment.right": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Right"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "右"
+          }
+        }
+      }
+    },
+    "settings.terminal.sessionContentAlignment.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Places width-capped content within the pane."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "幅を制限したコンテンツをペイン内に配置します。"
+          }
+        }
+      }
+    },
+    "settings.terminal.sessionContentWidth": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session Content Width"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッションコンテンツの幅"
+          }
+        }
+      }
+    },
+    "settings.terminal.sessionContentWidth.subtitleOff": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminal and agent chat content uses the full pane width."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ターミナルとエージェントチャットのコンテンツはペインの全幅を使います。"
+          }
+        }
+      }
+    },
+    "settings.terminal.sessionContentWidth.subtitleOn": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminal and agent chat content wraps within this width. Narrow panes still use all available space."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ターミナルとエージェントチャットのコンテンツはこの幅内で折り返します。狭いペインでは利用可能な幅をすべて使います。"
+          }
+        }
+      }
+    },
+    "settings.terminal.sessionContentWidth.toggle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limit session content width"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッションコンテンツの幅を制限"
+          }
+        }
+      }
+    },
+    "settings.terminal.sessionContentWidth.unit": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pt"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pt"
           }
         }
       }
