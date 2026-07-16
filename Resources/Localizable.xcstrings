@@ -35092,6 +35092,40 @@
         }
       }
     },
+    "cli.hooks.kimi.legacyCleanupWarning": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warning: cmux hooks are active at %@, but cmux could not remove its legacy hook block from %@. Check that path and re-run `cmux hooks setup kimi` to finish cleanup."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "警告: cmux hooks は %@ で有効ですが、従来の hook ブロックを %@ から削除できませんでした。そのパスを確認し、`cmux hooks setup kimi` を再実行してクリーンアップを完了してください。"
+          }
+        }
+      }
+    },
+    "cli.hooks.kimi.legacyUninstallWarning": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warning: cmux could not remove its legacy hook block from %@. Check that path and re-run `cmux hooks uninstall kimi` to finish cleanup."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "警告: 従来の hook ブロックを %@ から削除できませんでした。そのパスを確認し、`cmux hooks uninstall kimi` を再実行してクリーンアップを完了してください。"
+          }
+        }
+      }
+    },
     "cli.hooks.kimi.noneFound": {
       "extractionState": "manual",
       "localizations": {
