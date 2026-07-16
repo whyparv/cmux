@@ -834,6 +834,23 @@
         }
       }
     },
+    "about.licenses.correspondingSource": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Corresponding source for this build"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このビルドの対応するソースコード"
+          }
+        }
+      }
+    },
     "about.licenses.notFound": {
       "extractionState": "manual",
       "localizations": {
@@ -949,6 +966,40 @@
           "stringUnit": {
             "state": "translated",
             "value": "找不到授權條款檔案。"
+          }
+        }
+      }
+    },
+    "about.licenses.projectHeading": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux Project License"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux プロジェクトライセンス"
+          }
+        }
+      }
+    },
+    "about.licenses.projectSource": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Project source"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プロジェクトのソースコード"
           }
         }
       }
