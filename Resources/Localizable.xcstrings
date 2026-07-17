@@ -100843,6 +100843,40 @@
         }
       }
     },
+    "featureFlags.workspaceTodoControls.description": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shows Add Checklist Item and workspace completion status controls."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "チェックリスト項目の追加とワークスペースの完了ステータス操作を表示します。"
+          }
+        }
+      }
+    },
+    "featureFlags.workspaceTodoControls.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workspace todo controls"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ワークスペースTodo操作"
+          }
+        }
+      }
+    },
     "featureFlags.source.default": {
       "extractionState": "manual",
       "localizations": {
@@ -154228,6 +154262,57 @@
         }
       }
     },
+    "settings.betaFeatures.workspaceTodoControls": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Workspace Todo Controls"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ワークスペース Todo コントロール"
+          }
+        }
+      }
+    },
+    "settings.betaFeatures.workspaceTodoControls.subtitleOff": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keeps workspace todo summaries read-only unless remote rollout enables the controls."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リモートロールアウトでコントロールが有効になるまで、ワークスペース Todo の概要を読み取り専用にします。"
+          }
+        }
+      }
+    },
+    "settings.betaFeatures.workspaceTodoControls.subtitleOn": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shows Add Checklist Item and workspace status controls."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "「チェックリスト項目を追加」とワークスペースのステータスコントロールを表示します。"
+          }
+        }
+      }
+    },
     "settings.betaFeatures.workspaceTodosChecklistStyle": {
       "extractionState": "manual",
       "localizations": {
@@ -173753,6 +173838,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "sidebar.beta.workspaceTodos.checklistStyle ワークスペース Todo Todos タスク ステータス チェックリスト ポップオーバー インライン 表示 スタイル ベータ"
+          }
+        }
+      }
+    },
+    "settings.search.alias.setting.betaFeatures.workspace-todo-controls": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar.beta.workspaceTodos.controls.enabled workspace todo todos task status checklist add item controls beta"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sidebar.beta.workspaceTodos.controls.enabled ワークスペース Todo Todos タスク ステータス チェックリスト 追加 項目 コントロール ベータ"
           }
         }
       }
@@ -199358,6 +199460,125 @@
         }
       }
     },
+    "sidebar.checklist.attachmentUnavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File unavailable"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルを利用できません"
+          }
+        }
+      }
+    },
+    "sidebar.checklist.attachImages": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attach Images…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画像を添付…"
+          }
+        }
+      }
+    },
+    "sidebar.checklist.attachImages.confirm": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attach"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添付"
+          }
+        }
+      }
+    },
+    "sidebar.checklist.attachments.one": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 image attached"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1件の画像が添付されています"
+          }
+        }
+      }
+    },
+    "sidebar.checklist.attachments.noneAccessibility": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No images attached. Attach images."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添付画像はありません。画像を添付してください。"
+          }
+        }
+      }
+    },
+    "sidebar.checklist.attachments.other": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld images attached"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld件の画像が添付されています"
+          }
+        }
+      }
+    },
+    "sidebar.checklist.attachmentsTooltip": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage images"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画像を管理"
+          }
+        }
+      }
+    },
     "sidebar.checklist.checkTooltip": {
       "extractionState": "manual",
       "localizations": {
@@ -199371,6 +199592,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "完了にする"
+          }
+        }
+      }
+    },
+    "sidebar.checklist.openAttachment": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開く"
           }
         }
       }
@@ -199524,6 +199762,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "削除"
+          }
+        }
+      }
+    },
+    "sidebar.checklist.removeAttachment": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove Attachment"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添付を削除"
           }
         }
       }
@@ -205966,6 +206221,40 @@
           "stringUnit": {
             "state": "translated",
             "value": "自動 — %@に戻す"
+          }
+        }
+      }
+    },
+    "sidebar.status.compactLabel": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status: %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ステータス: %@"
+          }
+        }
+      }
+    },
+    "sidebar.status.compactTooltip": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change workspace status"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ワークスペースのステータスを変更"
           }
         }
       }
@@ -230007,40 +230296,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "チェックリスト完了"
-          }
-        }
-      }
-    },
-    "workspace.todo.notification.doneBody": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This workspace's status is now done."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "このワークスペースのステータスが完了になりました。"
-          }
-        }
-      }
-    },
-    "workspace.todo.notification.doneTitle": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Workspace marked done"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ワークスペースを完了にしました"
           }
         }
       }
