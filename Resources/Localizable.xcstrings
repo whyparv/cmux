@@ -100537,6 +100537,40 @@
         }
       }
     },
+    "featureFlags.appKitSidebarList.description": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renders the workspace sidebar with a native AppKit list and divider for smoother scrolling and resizing with many workspaces."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ワークスペースサイドバーをネイティブの AppKit リストとディバイダーで描画し、多数のワークスペースでもスクロールとリサイズを滑らかにします。"
+          }
+        }
+      }
+    },
+    "featureFlags.appKitSidebarList.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lawrence Sidebar"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lawrence サイドバー"
+          }
+        }
+      }
+    },
     "featureFlags.clearAll": {
       "extractionState": "manual",
       "localizations": {
