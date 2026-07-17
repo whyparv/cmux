@@ -20252,6 +20252,380 @@
         }
       }
     },
+    "browser.designMode.buttonHelpFormat": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Design Mode (%@)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デザインモード（%@）"
+          }
+        }
+      }
+    },
+    "browser.designMode.composer.describeChange": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Describe the change"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "変更内容を入力"
+          }
+        }
+      }
+    },
+    "browser.designMode.composer.pickElements": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select one or more elements on the page."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ページ上の要素を1つ以上選択してください。"
+          }
+        }
+      }
+    },
+    "browser.designMode.composer.removeSelection": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove selected element"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択した要素を削除"
+          }
+        }
+      }
+    },
+    "browser.designMode.copy": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピー"
+          }
+        }
+      }
+    },
+    "browser.designMode.copy.copied": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copied"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピー済み"
+          }
+        }
+      }
+    },
+    "browser.designMode.copy.copying": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copying…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピー中…"
+          }
+        }
+      }
+    },
+    "browser.designMode.copy.shortcut": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⌘↩"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⌘↩"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.captureChanged": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The selected element moved during capture. Try again when the page is still."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャプチャ中に選択した要素が移動しました。ページが静止しているときにもう一度お試しください。"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.copy": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not copy the design context."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デザインコンテキストをコピーできませんでした。"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.disable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Design Mode cleanup failed. Reload the page or try again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デザインモードのクリーンアップに失敗しました。ページを再読み込みするか、もう一度お試しください。"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.enable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Design Mode could not start."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デザインモードを開始できませんでした。"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.invalidRuntimeResponse": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The page returned invalid design data."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ページから無効なデザインデータが返されました。"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.noPage": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open a page before entering Design Mode."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デザインモードを開始する前にページを開いてください。"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.operationTimedOut": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The page stopped responding. Reload it and try again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ページが応答しなくなりました。再読み込みして、もう一度お試しください。"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.recovery": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again. If the problem continues, reload the page."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もう一度お試しください。問題が続く場合は、ページを再読み込みしてください。"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.stopForReactGrab": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Design Mode could not close before starting React Grab. Reload the page and try again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "React Grabを開始する前にデザインモードを終了できませんでした。ページを再読み込みして、もう一度お試しください。"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.stopReactGrab": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "React Grab could not close. Reload the page and try again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "React Grabを終了できませんでした。ページを再読み込みして、もう一度お試しください。"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.updateSelection": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not update the selected elements."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択した要素を更新できませんでした。"
+          }
+        }
+      }
+    },
+    "browser.designMode.mode.draw": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Draw a capture area"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャプチャ範囲を描画"
+          }
+        }
+      }
+    },
+    "browser.designMode.mode.select": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select elements"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要素を選択"
+          }
+        }
+      }
+    },
+    "browser.designMode.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Design Mode"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デザインモード"
+          }
+        }
+      }
+    },
     "browser.dialog.auth.basic.incorrectCredentials": {
       "extractionState": "manual",
       "localizations": {
@@ -31914,6 +32288,159 @@
           "stringUnit": {
             "state": "translated",
             "value": "關閉窗格"
+          }
+        }
+      }
+    },
+    "cli.browser.designMode.disabled": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "disabled"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無効"
+          }
+        }
+      }
+    },
+    "cli.browser.designMode.enabled": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "enabled"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有効"
+          }
+        }
+      }
+    },
+    "cli.browser.designMode.expectedModes": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "browser design-mode requires one of: enable, disable, toggle, status"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "browser design-mode には enable、disable、toggle、status のいずれかを指定してください"
+          }
+        }
+      }
+    },
+    "cli.browser.designMode.help": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "browser design-mode enable|disable|toggle|status [--surface <id>]"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "browser design-mode enable|disable|toggle|status [--surface <id>]"
+          }
+        }
+      }
+    },
+    "cli.browser.designMode.rpcExpectedModes": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mode must be one of: enable, disable, toggle"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mode は enable、disable、toggle のいずれかである必要があります"
+          }
+        }
+      }
+    },
+    "cli.browser.designMode.timeout": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Timed out updating browser design mode"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザデザインモードの更新がタイムアウトしました"
+          }
+        }
+      }
+    },
+    "cli.browser.designMode.updateFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser design mode could not be updated"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザデザインモードを更新できませんでした"
+          }
+        }
+      }
+    },
+    "cli.browser.error.operationFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser operation failed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザ操作に失敗しました"
+          }
+        }
+      }
+    },
+    "cli.browser.error.tabManagerUnavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser controls are unavailable"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザ機能を利用できません"
           }
         }
       }
@@ -65041,6 +65568,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "Створити"
+          }
+        }
+      }
+    },
+    "common.done": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完了"
           }
         }
       }
@@ -123198,6 +123742,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "切換畫布佈局"
+          }
+        }
+      }
+    },
+    "menu.view.toggleDesignMode": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toggle Design Mode"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デザインモードを切り替え"
           }
         }
       }
@@ -196959,6 +197520,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "사이드바 볼트 표시"
+          }
+        }
+      }
+    },
+    "shortcut.toggleBrowserDesignMode.label": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toggle Browser Design Mode"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザデザインモードを切り替え"
           }
         }
       }
