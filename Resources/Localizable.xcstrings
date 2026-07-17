@@ -163823,6 +163823,91 @@
         }
       }
     },
+    "settings.mobile.artifactFolderAccess": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder Access"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダアクセス"
+          }
+        }
+      }
+    },
+    "settings.mobile.artifactFolderAccess.oneLevel": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One Level"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 階層"
+          }
+        }
+      }
+    },
+    "settings.mobile.artifactFolderAccess.subtree": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entire Subtree"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サブツリー全体"
+          }
+        }
+      }
+    },
+    "settings.mobile.artifactFolderAccess.subtitleOneLevel": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limits iOS to immediate children of referenced or visible folders."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS からのアクセスを、参照された、または表示中のフォルダの直下の項目に制限します。"
+          }
+        }
+      }
+    },
+    "settings.mobile.artifactFolderAccess.subtitleSubtree": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lets iOS browse any item inside a folder referenced by chat or visible in a terminal."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "チャットで参照された、またはターミナルに表示されたフォルダ内のすべての項目を iOS から参照できるようにします。"
+          }
+        }
+      }
+    },
     "settings.mobile.connections": {
       "extractionState": "manual",
       "localizations": {
@@ -176524,6 +176609,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "hotkeys keybindings key bindings commands keyboard accelerators shortcuts cmux json 鍵盤 快捷鍵 熱鍵 命令 按鍵 錄製器 設定 設定檔 檔案 結構描述 文件 參考 偏好設定 設定... 鍵盤快速鍵"
+          }
+        }
+      }
+    },
+    "settings.search.alias.setting.mobile.artifactFolderAccess": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mobile ios iphone files folders directory subtree one level authorization security"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "モバイル ios iphone ファイル フォルダ ディレクトリ サブツリー 1 階層 認証 セキュリティ"
           }
         }
       }
