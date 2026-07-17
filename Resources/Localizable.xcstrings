@@ -213050,13 +213050,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "A process wants cmux to keep this resume command for the current terminal:\n\n%@\n\nWorking directory: %@"
+            "value": "A process wants cmux to keep this resume command for the current terminal:\n\nWorking directory: %@\n\n%@"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "プロセスが現在のターミナルにこの復元コマンドを保持しようとしています:\n\n%@\n\n作業ディレクトリ: %@"
+            "value": "プロセスが現在のターミナルにこの復元コマンドを保持しようとしています:\n\n作業ディレクトリ: %@\n\n%@"
           }
         }
       }
@@ -213084,13 +213084,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "cmux is restoring a terminal with this resume command:\n\n%@\n\nWorking directory: %@"
+            "value": "cmux is restoring a terminal with this resume command:\n\nWorking directory: %@\n\n%@"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "cmux はこの復元コマンドでターミナルを復元しようとしています:\n\n%@\n\n作業ディレクトリ: %@"
+            "value": "cmux はこの復元コマンドでターミナルを復元しようとしています:\n\n作業ディレクトリ: %@\n\n%@"
           }
         }
       }
