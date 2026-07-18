@@ -32815,6 +32815,40 @@
         }
       }
     },
+    "cli.creation.remoteTmux.newPane": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(routed to remote tmux; the new pane arrives asynchronously)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "（リモート tmux にルーティングされました。新しいペインは非同期で反映されます）"
+          }
+        }
+      }
+    },
+    "cli.creation.remoteTmux.newWindow": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(routed to remote tmux; the new window arrives asynchronously)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "（リモート tmux にルーティングされました。新しいウインドウは非同期で反映されます）"
+          }
+        }
+      }
+    },
     "cli.error.dismissNotificationSelector": {
       "extractionState": "manual",
       "localizations": {
@@ -209128,6 +209162,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "選択するにはサイドバー名が必要です。"
+          }
+        }
+      }
+    },
+    "socket.surface.create.remoteTmuxPaneUnsupportedType": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only terminal surfaces can target a remote tmux pane; the terminal is created as a new tmux window after the pane's window."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リモート tmux ペインを対象にできるのはターミナルサーフェスだけです。ターミナルは対象ペインのウインドウの後に新しい tmux ウインドウとして作成されます。"
           }
         }
       }
