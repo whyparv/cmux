@@ -221521,6 +221521,74 @@
         }
       }
     },
+    "update.debug.error.agentInvalidation": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agent Invalidation (4010)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "エージェントの無効化（4010）"
+          }
+        }
+      }
+    },
+    "update.debug.error.diskImageTranslocation": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disk Image / Translocated (1003)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ディスクイメージ／トランスロケーション（1003）"
+          }
+        }
+      }
+    },
+    "update.debug.error.downloadFailure": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download Failure (2001)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ダウンロードの失敗（2001）"
+          }
+        }
+      }
+    },
+    "update.debug.error.genericInstallFailure": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generic Install Failure (4005)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一般的なインストールの失敗（4005）"
+          }
+        }
+      }
+    },
     "update.debug.error.installDidNotStart": {
       "extractionState": "manual",
       "localizations": {
@@ -221636,6 +221704,74 @@
           "stringUnit": {
             "state": "translated",
             "value": "安裝未開始（watchdog）"
+          }
+        }
+      }
+    },
+    "update.debug.error.installFailureWrappingAuth": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Install Failure / Auth (4005→4001)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "インストール失敗／認証（4005→4001）"
+          }
+        }
+      }
+    },
+    "update.debug.error.installerAgentFailure": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installer Agent Failure (4005 + timeout)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "インストーラエージェントの失敗（4005 + タイムアウト）"
+          }
+        }
+      }
+    },
+    "update.debug.error.noInternet": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Internet"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "インターネット接続なし"
+          }
+        }
+      }
+    },
+    "update.debug.error.signatureError": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signature Error (3001)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "署名エラー（3001）"
           }
         }
       }
@@ -229579,6 +229715,40 @@
         }
       }
     },
+    "update.preparingCheck": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparing Update Check…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アップデート確認を準備中…"
+          }
+        }
+      }
+    },
+    "update.preparingCheck.message": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting for the current update session to finish"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在のアップデートセッションの終了を待っています"
+          }
+        }
+      }
+    },
     "update.preparingUpdate": {
       "extractionState": "manual",
       "localizations": {
@@ -229813,6 +229983,40 @@
           "stringUnit": {
             "state": "translated",
             "value": "重新啟動以完成更新"
+          }
+        }
+      }
+    },
+    "update.startingDownload": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starting Download…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ダウンロードを開始中…"
+          }
+        }
+      }
+    },
+    "update.startingDownload.message": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starting the update download"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アップデートのダウンロードを開始しています"
           }
         }
       }
