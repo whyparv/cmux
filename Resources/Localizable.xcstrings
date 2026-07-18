@@ -20320,6 +20320,23 @@
         }
       }
     },
+    "browser.designMode.context.remove": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove %@ context"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ のコンテキストを削除"
+          }
+        }
+      }
+    },
     "browser.designMode.copy": {
       "extractionState": "manual",
       "localizations": {
@@ -20384,6 +20401,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "⌘↩"
+          }
+        }
+      }
+    },
+    "browser.designMode.error.annotationCapture": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not capture the annotation. Draw it again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "注釈をキャプチャできませんでした。もう一度描いてください。"
           }
         }
       }
