@@ -125333,6 +125333,40 @@
         }
       }
     },
+    "mobile.chat.artifact.error.irohTransportUnavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Artifact transfer requires an authenticated session."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アーティファクト転送には、認証済みのセッションが必要です。"
+          }
+        }
+      }
+    },
+    "mobile.chat.artifact.error.transferUnavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Artifact transfer is temporarily unavailable."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アーティファクト転送は一時的に利用できません。"
+          }
+        }
+      }
+    },
     "mobile.chat.artifact.error.sessionNotFound": {
       "extractionState": "manual",
       "localizations": {
