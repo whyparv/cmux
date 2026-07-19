@@ -101308,13 +101308,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Overrides are local to this Mac and take precedence over remote flags."
+            "value": "Local overrides apply only when no remote value is available."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "上書きはこのMacのみに保存され、リモートフラグより優先されます。"
+            "value": "ローカル上書きは、リモート値がない場合にのみ適用されます。"
           }
         }
       }
@@ -101349,6 +101349,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mobile Connectボタン"
+          }
+        }
+      }
+    },
+    "featureFlags.override.none": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No override"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上書きなし"
           }
         }
       }
@@ -101404,19 +101421,19 @@
         }
       }
     },
-    "featureFlags.override.remote": {
+    "featureFlags.override.remoteControlledNote": {
       "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Remote"
+            "value": "Controlled remotely; local override inactive."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "リモート"
+            "value": "リモートで制御中。ローカル上書きは無効です。"
           }
         }
       }
