@@ -33873,6 +33873,131 @@
         }
       }
     },
+    "cli.help.ssh.initialCommand": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الأمر الأولي:\n  --command <text>        شغّل نص الأمر مرة واحدة في الطرفية البعيدة الأولية بعد بدء الصدفة\n\nمثال:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Početna naredba:\n  --command <text>        Pokrenite tekst naredbe jednom u početnom udaljenom terminalu nakon pokretanja ljuske\n\nPrimjer:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indledende kommando:\n  --command <text>        Kør kommandoteksten én gang i den første fjernterminal efter shell-start\n\nEksempel:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Initialer Befehl:\n  --command <text>        Befehlstext nach dem Shell-Start einmal im ersten Remote-Terminal ausführen\n\nBeispiel:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Initial command:\n  --command <text>        Run text once in the initial remote terminal after shell startup\n\nExample:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comando inicial:\n  --command <text>        Ejecutar el texto del comando una vez en el terminal remoto inicial después de iniciar el shell\n\nEjemplo:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commande initiale :\n  --command <text>        Exécuter le texte de la commande une seule fois dans le terminal distant initial après le démarrage du shell\n\nExemple :\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comando iniziale:\n  --command <text>        Esegui il testo del comando una volta nel terminale remoto iniziale dopo l'avvio della shell\n\nEsempio:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "初期コマンド:\n  --command <text>        シェル起動後、最初のリモートターミナルでテキストを一度だけ実行\n\n例:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ពាក្យបញ្ជាដំបូង៖\n  --command <text>        ដំណើរការអត្ថបទពាក្យបញ្ជាម្តងនៅក្នុងស្ថានីយពីចម្ងាយដំបូង បន្ទាប់ពី shell ចាប់ផ្តើម\n\nឧទាហរណ៍៖\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "초기 명령:\n  --command <text>        셸 시작 후 첫 원격 터미널에서 명령 텍스트를 한 번만 실행\n\n예:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Første kommando:\n  --command <text>        Kjør kommandoteksten én gang i den første eksterne terminalen etter skalloppstart\n\nEksempel:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Polecenie początkowe:\n  --command <text>        Uruchom tekst polecenia jeden raz w początkowym zdalnym terminalu po starcie powłoki\n\nPrzykład:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comando inicial:\n  --command <text>        Execute o texto do comando uma vez no terminal remoto inicial após iniciar o shell\n\nExemplo:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Начальная команда:\n  --command <text>        Выполнить текст команды один раз в исходном удалённом терминале после запуска оболочки\n\nПример:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คำสั่งเริ่มต้น:\n  --command <text>        เรียกใช้ข้อความคำสั่งหนึ่งครั้งในเทอร์มินัลระยะไกลเริ่มต้นหลังจากเชลล์เริ่มทำงาน\n\nตัวอย่าง:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İlk komut:\n  --command <text>        Komut metnini kabuk başladıktan sonra ilk uzak terminalde bir kez çalıştırın\n\nÖrnek:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Початкова команда:\n  --command <text>        Виконати текст команди один раз у початковому віддаленому терміналі після запуску оболонки\n\nПриклад:\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "初始命令：\n  --command <text>        在 shell 启动后于初始远程终端中运行一次命令文本\n\n示例：\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "初始命令：\n  --command <text>        在 shell 啟動後於初始遠端終端機中執行一次命令文字\n\n範例：\n  cmux ssh dev@my-host --command 'omp \"investigate auth\"'"
+          }
+        }
+      }
+    },
     "cli.help.ssh-tmux": {
       "extractionState": "manual",
       "localizations": {
@@ -43931,6 +44056,381 @@
           "stringUnit": {
             "state": "translated",
             "value": "[cmux] 關閉此窗格或按 Ctrl-C 停止重新連線。"
+          }
+        }
+      }
+    },
+    "cli.ssh.error.commandConflict": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: لا يمكن دمج --command مع وسائط الأمر البعيد اللاحقة"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command se ne može kombinovati sa završnim argumentima udaljene naredbe"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command kan ikke kombineres med efterfølgende argumenter til fjernkommandoen"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command kann nicht mit nachgestellten Remote-Befehlsargumenten kombiniert werden"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command cannot be combined with trailing remote command arguments"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command no se puede combinar con argumentos finales de comandos remotos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh : --command ne peut pas être combiné avec des arguments de commande distante placés à la fin"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command non può essere combinato con argomenti finali del comando remoto"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command は末尾のリモートコマンド引数と同時に指定できません"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh៖ មិនអាចប្រើ --command ជាមួយអាគុយម៉ង់ពាក្យបញ្ជាពីចម្ងាយនៅខាងចុងបានទេ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command는 뒤에 오는 원격 명령 인수와 함께 사용할 수 없습니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command kan ikke kombineres med etterfølgende argumenter til fjernkommandoen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: opcji --command nie można łączyć z końcowymi argumentami polecenia zdalnego"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command não pode ser combinado com argumentos finais de comando remoto"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command нельзя сочетать с завершающими аргументами удалённой команды"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: ไม่สามารถใช้ --command ร่วมกับอาร์กิวเมนต์คำสั่งระยะไกลต่อท้ายได้"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command sondaki uzak komut bağımsız değişkenleriyle birlikte kullanılamaz"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command не можна поєднувати з кінцевими аргументами віддаленої команди"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh：--command 不能与末尾的远程命令参数同时使用"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh：--command 不能與末尾的遠端命令引數同時使用"
+          }
+        }
+      }
+    },
+    "cli.ssh.error.commandRequiresText": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: يتطلب --command نص أمر غير فارغ"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command zahtijeva tekst naredbe koji nije prazan"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command kræver en kommandotekst, der ikke er tom"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command erfordert einen nicht leeren Befehlstext"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command requires non-empty command text"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command requiere texto de comando no vacío"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh : --command nécessite un texte de commande non vide"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command richiede un testo di comando non vuoto"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command には空でないコマンドテキストが必要です"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh៖ --command ត្រូវការអត្ថបទពាក្យបញ្ជាដែលមិនទទេ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command에는 비어 있지 않은 명령 텍스트가 필요합니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command krever kommandotekst som ikke er tom"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: opcja --command wymaga niepustego tekstu polecenia"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command requer um texto de comando não vazio"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: для --command требуется непустой текст команды"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command ต้องมีข้อความคำสั่งที่ไม่ว่างเปล่า"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --command boş olmayan komut metni gerektirir"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: для --command потрібен непорожній текст команди"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh：--command 需要非空命令文本"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh：--command 需要非空命令文字"
+          }
+        }
+      }
+    },
+    "cli.ssh.initialCommand.unsupportedShell": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] لم يتم تشغيل الأمر الأولي لأن cmux لا يدعم الأوامر الأولية لصدفة تسجيل الدخول البعيدة هذه. أعد الاتصال باستخدام صدفة مدعومة لإعادة المحاولة."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Početna naredba nije pokrenuta jer cmux ne podržava početne naredbe za ovu udaljenu prijavnu ljusku. Ponovo se povežite koristeći podržanu ljusku da pokušate ponovo."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Den indledende kommando blev ikke kørt, fordi cmux ikke understøtter indledende kommandoer for denne eksterne loginskal. Opret forbindelse igen med en understøttet skal for at prøve igen."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Der initiale Befehl wurde nicht ausgeführt, weil cmux initiale Befehle für diese Remote-Anmeldeshell nicht unterstützt. Stellen Sie die Verbindung mit einer unterstützten Shell erneut her, um es noch einmal zu versuchen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Initial command was not run because cmux does not support initial commands for this remote login shell. Reconnect with a supported shell to retry it."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] El comando inicial no se ejecutó porque cmux no admite comandos iniciales para este shell de inicio de sesión remoto. Vuelve a conectarte con un shell compatible para intentarlo de nuevo."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] La commande initiale n’a pas été exécutée, car cmux ne prend pas en charge les commandes initiales pour ce shell de connexion distant. Reconnectez-vous avec un shell pris en charge pour réessayer."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Il comando iniziale non è stato eseguito perché cmux non supporta i comandi iniziali per questa shell di accesso remota. Riconnettiti con una shell supportata per riprovare."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] このリモートログインシェルでは初期コマンドがサポートされていないため、コマンドは実行されませんでした。対応しているシェルで再接続して、もう一度お試しください。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ពាក្យបញ្ជាដំបូងមិនត្រូវបានដំណើរការទេ ពីព្រោះ cmux មិនគាំទ្រពាក្យបញ្ជាដំបូងសម្រាប់ shell ចូលពីចម្ងាយនេះ។ ភ្ជាប់ឡើងវិញដោយប្រើ shell ដែលគាំទ្រ ដើម្បីព្យាយាមម្តងទៀត។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] cmux가 이 원격 로그인 셸의 초기 명령을 지원하지 않아 명령이 실행되지 않았습니다. 지원되는 셸로 다시 연결하여 재시도하세요."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Den første kommandoen ble ikke kjørt fordi cmux ikke støtter første kommandoer for dette eksterne innloggingsskallet. Koble til på nytt med et støttet skall for å prøve igjen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Polecenie początkowe nie zostało uruchomione, ponieważ cmux nie obsługuje poleceń początkowych dla tej zdalnej powłoki logowania. Połącz się ponownie przy użyciu obsługiwanej powłoki, aby spróbować ponownie."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] O comando inicial não foi executado porque o cmux não oferece suporte a comandos iniciais neste shell de login remoto. Reconecte-se com um shell compatível para tentar novamente."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Начальная команда не была выполнена, потому что cmux не поддерживает начальные команды для этой удалённой оболочки входа. Переподключитесь с поддерживаемой оболочкой, чтобы повторить попытку."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ไม่ได้เรียกใช้คำสั่งเริ่มต้น เนื่องจาก cmux ไม่รองรับคำสั่งเริ่มต้นสำหรับเชลล์ล็อกอินระยะไกลนี้ เชื่อมต่อใหม่ด้วยเชลล์ที่รองรับเพื่อลองอีกครั้ง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] cmux bu uzak oturum açma kabuğu için ilk komutları desteklemediğinden ilk komut çalıştırılmadı. Yeniden denemek için desteklenen bir kabukla yeniden bağlanın."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Початкову команду не виконано, оскільки cmux не підтримує початкові команди для цієї віддаленої оболонки входу. Повторно підключіться з підтримуваною оболонкою, щоб спробувати ще раз."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 未运行初始命令，因为 cmux 不支持为此远程登录 shell 运行初始命令。请使用受支持的 shell 重新连接以重试。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 未執行初始命令，因為 cmux 不支援為此遠端登入 shell 執行初始命令。請使用受支援的 shell 重新連線以重試。"
           }
         }
       }
