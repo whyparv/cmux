@@ -33748,6 +33748,631 @@
         }
       }
     },
+    "cli.help.mosh": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الاستخدام: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nنقل طرفية Mosh:\n  --transport <ssh|mosh>  نقل الطرفية التفاعلية (الافتراضي: mosh)\n\nيدير SSH الميزات البعيدة، وينقل Mosh الطرفية التفاعلية فقط. إذا لم يتوفر Mosh محليًا أو عن بُعد، يوضّح cmux ذلك ويستخدم SSH.\n\nمثال:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upotreba: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nMosh transport terminala:\n  --transport <ssh|mosh>  Transport interaktivnog terminala (zadano: mosh)\n\nSSH upravlja udaljenim funkcijama, a Mosh prenosi samo terminal. Ako Mosh nedostaje lokalno ili udaljeno, cmux to prijavljuje i koristi SSH.\n\nPrimjer:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brug: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nMosh-terminaltransport:\n  --transport <ssh|mosh>  Interaktiv terminaltransport (standard: mosh)\n\nSSH håndterer fjernfunktioner, og Mosh bærer kun terminalen. Hvis Mosh mangler lokalt eller på fjernværten, oplyser cmux det og bruger SSH.\n\nEksempel:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwendung: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nMosh-Terminaltransport:\n  --transport <ssh|mosh>  Interaktiver Terminaltransport (Standard: mosh)\n\nSSH verwaltet Remote-Funktionen, Mosh überträgt nur das Terminal. Fehlt Mosh lokal oder remote, meldet cmux dies und verwendet SSH.\n\nBeispiel:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nMosh terminal transport:\n  --transport <ssh|mosh>  Interactive terminal transport (default: mosh)\n\nSSH continues to handle remote features; Mosh carries only the interactive\nterminal. If Mosh is missing locally or remotely, cmux reports it and uses SSH.\n\nExample:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uso: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nTransporte de terminal Mosh:\n  --transport <ssh|mosh>  Transporte del terminal interactivo (predeterminado: mosh)\n\nSSH gestiona las funciones remotas y Mosh solo transporta el terminal. Si falta Mosh localmente o en remoto, cmux lo indica y usa SSH.\n\nEjemplo:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utilisation: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nTransport de terminal Mosh :\n  --transport <ssh|mosh>  Transport du terminal interactif (par défaut : mosh)\n\nSSH gère les fonctions distantes et Mosh transporte seulement le terminal. Si Mosh manque en local ou à distance, cmux le signale et utilise SSH.\n\nExemple :\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utilizzo: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nTrasporto terminale Mosh:\n  --transport <ssh|mosh>  Trasporto del terminale interattivo (predefinito: mosh)\n\nSSH gestisce le funzioni remote e Mosh trasporta solo il terminale. Se Mosh manca in locale o in remoto, cmux lo segnala e usa SSH.\n\nEsempio:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用方法: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nMosh ターミナルトランスポート:\n  --transport <ssh|mosh>  対話型ターミナルのトランスポート（デフォルト: mosh）\n\nリモート機能は SSH が管理し、Mosh は対話型ターミナルだけを運びます。ローカルまたはリモートに Mosh がない場合、cmux はその旨を表示して SSH を使用します。\n\n例:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ការប្រើប្រាស់: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nមធ្យោបាយស្ថានីយ Mosh៖\n  --transport <ssh|mosh>  មធ្យោបាយស្ថានីយអន្តរកម្ម (លំនាំដើម៖ mosh)\n\nSSH គ្រប់គ្រងមុខងារពីចម្ងាយ ហើយ Mosh ដឹកតែស្ថានីយ។ បើ Mosh មិនមាននៅម៉ាស៊ីនមូលដ្ឋាន ឬម៉ាស៊ីនពីចម្ងាយ cmux នឹងជូនដំណឹង ហើយប្រើ SSH។\n\nឧទាហរណ៍៖\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사용법: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nMosh 터미널 전송 방식:\n  --transport <ssh|mosh>  대화형 터미널 전송 방식(기본값: mosh)\n\n원격 기능은 SSH가 관리하고 Mosh는 터미널만 전송합니다. 로컬 또는 원격에 Mosh가 없으면 cmux가 알리고 SSH를 사용합니다.\n\n예:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bruk: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nMosh-terminaltransport:\n  --transport <ssh|mosh>  Interaktiv terminaltransport (standard: mosh)\n\nSSH håndterer eksterne funksjoner, og Mosh bærer bare terminalen. Hvis Mosh mangler lokalt eller eksternt, sier cmux fra og bruker SSH.\n\nEksempel:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użycie: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nTransport terminala Mosh:\n  --transport <ssh|mosh>  Transport terminala interaktywnego (domyślnie: mosh)\n\nSSH obsługuje funkcje zdalne, a Mosh tylko terminal. Jeśli brakuje Mosh lokalnie lub zdalnie, cmux informuje o tym i używa SSH.\n\nPrzykład:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uso: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nTransporte de terminal Mosh:\n  --transport <ssh|mosh>  Transporte do terminal interativo (padrão: mosh)\n\nO SSH gerencia os recursos remotos e o Mosh transporta apenas o terminal. Se faltar Mosh local ou remotamente, o cmux informa e usa SSH.\n\nExemplo:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Использование: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nТранспорт терминала Mosh:\n  --transport <ssh|mosh>  Транспорт интерактивного терминала (по умолчанию: mosh)\n\nSSH управляет удалёнными функциями, а Mosh передаёт только терминал. Если Mosh отсутствует локально или удалённо, cmux сообщает об этом и использует SSH.\n\nПример:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การใช้งาน: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nการส่งเทอร์มินัล Mosh:\n  --transport <ssh|mosh>  การส่งเทอร์มินัลแบบโต้ตอบ (ค่าเริ่มต้น: mosh)\n\nSSH จัดการคุณสมบัติระยะไกล ส่วน Mosh ส่งเฉพาะเทอร์มินัล หากไม่มี Mosh ในเครื่องหรือบนโฮสต์ระยะไกล cmux จะแจ้งและใช้ SSH\n\nตัวอย่าง:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kullanım: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nMosh terminal aktarımı:\n  --transport <ssh|mosh>  Etkileşimli terminal aktarımı (varsayılan: mosh)\n\nUzak özellikleri SSH yönetir, Mosh yalnızca terminali taşır. Mosh yerelde veya uzakta yoksa cmux bunu bildirir ve SSH kullanır.\n\nÖrnek:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Використання: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nТранспорт термінала Mosh:\n  --transport <ssh|mosh>  Транспорт інтерактивного термінала (типово: mosh)\n\nSSH керує віддаленими функціями, а Mosh передає лише термінал. Якщо Mosh відсутній локально або віддалено, cmux повідомляє про це й використовує SSH.\n\nПриклад:\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用法: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nMosh 终端传输：\n  --transport <ssh|mosh>  交互式终端传输方式（默认：mosh）\n\nSSH 管理远程功能，Mosh 仅承载终端。如果本地或远程缺少 Mosh，cmux 会说明原因并使用 SSH。\n\n示例：\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用法: cmux mosh <destination> [flags] [-- <remote-command-args>]\n\nMosh 終端傳輸：\n  --transport <ssh|mosh>  互動式終端傳輸方式（預設：mosh）\n\nSSH 管理遠端功能，Mosh 只承載終端。如果本機或遠端缺少 Mosh，cmux 會說明原因並使用 SSH。\n\n範例：\n  cmux ssh dev@my-host --transport mosh\n\n  cmux mosh dev@my-host"
+          }
+        }
+      }
+    },
+    "cli.help.mosh-tmux": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الاستخدام: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nأنشئ مساحة عمل Mosh تُنشئ جلسة tmux مسماة أو تتصل بها (الافتراضي: main). يستمر ملف تعريف tmux بعد إعادة الاتصال واستعادة جلسة التطبيق. هذه طرفية tmux متجولة وليست مرآة cmux ssh-tmux الأصلية. يحدد --session <name> الجلسة، وتطابق بقية الخيارات cmux mosh. عند غياب Mosh يعمل ملف tmux نفسه عبر SSH.\n\nمثال:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upotreba: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nKreirajte Mosh workspace koji kreira ili spaja imenovanu tmux sesiju (zadano: main). Tmux profil opstaje kroz ponovno povezivanje i vraćanje sesije aplikacije. Ovo je roaming tmux terminal, a ne izvorni mirror iz cmux ssh-tmux. --session <name> bira sesiju; ostale opcije odgovaraju cmux mosh. Bez Mosha isti profil radi preko SSH-a.\n\nPrimjer:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brug: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nOpret et Mosh-arbejdsområde, der opretter eller tilslutter en navngivet tmux-session (standard: main). Tmux-profilen bevares ved genoprettelse og app-sessionsgendannelse. Dette er en roaming tmux-terminal, ikke det native mirror fra cmux ssh-tmux. --session <name> vælger sessionen; øvrige flag matcher cmux mosh. Uden Mosh kører samme profil over SSH.\n\nEksempel:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwendung: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nErstellt einen Mosh-Workspace, der eine benannte tmux-Sitzung erstellt oder anhängt (Standard: main). Das tmux-Profil bleibt bei Wiederverbindung und App-Sitzungswiederherstellung erhalten. Dies ist ein roamingfähiges tmux-Terminal, nicht der native Mirror von cmux ssh-tmux. --session <name> wählt die Sitzung; alle übrigen Optionen entsprechen cmux mosh. Ohne Mosh läuft dasselbe Profil über SSH.\n\nBeispiel:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usage: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nCreate a Mosh workspace that creates or attaches to a named tmux session (default: main). The tmux profile persists across reconnect and app session restore. This is a roaming tmux terminal, not the native mirror from cmux ssh-tmux. --session <name> selects the session; all other flags match cmux mosh. Without Mosh, the same profile runs over SSH.\n\nExample:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uso: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nCrea un espacio Mosh que crea o adjunta una sesión tmux con nombre (predeterminada: main). El perfil tmux persiste al reconectar y restaurar la sesión de la app. Es un terminal tmux itinerante, no el espejo nativo de cmux ssh-tmux. --session <name> elige la sesión; las demás opciones coinciden con cmux mosh. Sin Mosh, el mismo perfil funciona por SSH.\n\nEjemplo:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utilisation: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nCrée un espace Mosh qui crée ou rejoint une session tmux nommée (par défaut : main). Le profil tmux persiste après reconnexion et restauration de session. Il s’agit d’un terminal tmux itinérant, pas du miroir natif de cmux ssh-tmux. --session <name> choisit la session ; les autres options correspondent à cmux mosh. Sans Mosh, le même profil passe par SSH.\n\nExemple:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utilizzo: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nCrea un workspace Mosh che crea o collega una sessione tmux denominata (predefinita: main). Il profilo tmux persiste dopo riconnessione e ripristino della sessione dell’app. È un terminale tmux roaming, non il mirror nativo di cmux ssh-tmux. --session <name> sceglie la sessione; le altre opzioni corrispondono a cmux mosh. Senza Mosh, lo stesso profilo usa SSH.\n\nEsempio:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用方法: cmux mosh-tmux <destination> [--session <name>] [flags]\n\n名前付き tmux セッションを作成またはアタッチする Mosh ワークスペースを作成します（デフォルト: main）。tmux プロファイルは再接続とアプリセッション復元後も保持されます。これはローミング可能な tmux ターミナルであり、cmux ssh-tmux のネイティブミラーではありません。--session <name> でセッションを選び、その他のフラグは cmux mosh と同じです。Mosh がなければ同じプロファイルを SSH で実行します。\n\n例:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ការប្រើប្រាស់: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nបង្កើត Mosh workspace ដែលបង្កើត ឬភ្ជាប់ tmux session មានឈ្មោះ (លំនាំដើម៖ main)។ tmux profile ត្រូវបានរក្សាទុកពេល reconnect និង restore app session។ វាជា tmux terminal ដែល roam បាន មិនមែន native mirror របស់ cmux ssh-tmux ទេ។ --session <name> ជ្រើស session; flags ផ្សេងទៀតដូច cmux mosh។ បើគ្មាន Mosh profile ដដែលដំណើរការតាម SSH។\n\nឧទាហរណ៍:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사용법: cmux mosh-tmux <destination> [--session <name>] [flags]\n\n이름 있는 tmux 세션을 만들거나 연결하는 Mosh 워크스페이스를 만듭니다(기본값: main). tmux 프로필은 재연결 및 앱 세션 복원 후에도 유지됩니다. 이는 로밍 tmux 터미널이며 cmux ssh-tmux의 네이티브 미러가 아닙니다. --session <name>으로 세션을 선택하며 나머지 플래그는 cmux mosh와 같습니다. Mosh가 없으면 같은 프로필을 SSH로 실행합니다.\n\n예:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bruk: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nOpprett et Mosh-arbeidsområde som oppretter eller kobler til en navngitt tmux-økt (standard: main). Tmux-profilen bevares ved ny tilkobling og gjenoppretting av appøkten. Dette er en roaming tmux-terminal, ikke det innebygde speilet fra cmux ssh-tmux. --session <name> velger økten; øvrige flagg samsvarer med cmux mosh. Uten Mosh kjører samme profil over SSH.\n\nEksempel:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użycie: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nUtwórz workspace Mosh, który tworzy lub dołącza do nazwanej sesji tmux (domyślnie: main). Profil tmux jest zachowywany po ponownym połączeniu i odtworzeniu sesji aplikacji. To terminal tmux z roamingiem, a nie natywne lustro z cmux ssh-tmux. --session <name> wybiera sesję; pozostałe flagi są takie jak w cmux mosh. Bez Mosh ten sam profil działa przez SSH.\n\nPrzykład:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uso: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nCrie um workspace Mosh que cria ou conecta uma sessão tmux nomeada (padrão: main). O perfil tmux persiste após reconexão e restauração da sessão do app. É um terminal tmux com roaming, não o espelho nativo de cmux ssh-tmux. --session <name> escolhe a sessão; as demais opções correspondem a cmux mosh. Sem Mosh, o mesmo perfil roda por SSH.\n\nExemplo:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Использование: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nСоздаёт Mosh-пространство, которое создаёт или подключает именованный сеанс tmux (по умолчанию: main). Профиль tmux сохраняется при переподключении и восстановлении сеанса приложения. Это роуминговый терминал tmux, а не нативное зеркало cmux ssh-tmux. --session <name> выбирает сеанс; остальные параметры совпадают с cmux mosh. Без Mosh тот же профиль работает через SSH.\n\nПример:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การใช้งาน: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nสร้าง Mosh workspace ที่สร้างหรือแนบ tmux session ที่มีชื่อ (ค่าเริ่มต้น: main) โปรไฟล์ tmux คงอยู่หลัง reconnect และ restore app session นี่คือ tmux terminal ที่ roaming ได้ ไม่ใช่ native mirror ของ cmux ssh-tmux ใช้ --session <name> เลือก session; แฟล็กอื่นเหมือน cmux mosh หากไม่มี Mosh โปรไฟล์เดิมจะทำงานผ่าน SSH\n\nตัวอย่าง:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kullanım: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nAdlandırılmış bir tmux oturumu oluşturan veya ona bağlanan Mosh çalışma alanı oluşturur (varsayılan: main). tmux profili yeniden bağlanma ve uygulama oturumu geri yüklemesinde korunur. Bu, dolaşabilen bir tmux terminalidir; cmux ssh-tmux yerel aynası değildir. --session <name> oturumu seçer; diğer bayraklar cmux mosh ile aynıdır. Mosh yoksa aynı profil SSH üzerinden çalışır.\n\nÖrnek:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Використання: cmux mosh-tmux <destination> [--session <name>] [flags]\n\nСтворює Mosh-простір, який створює або приєднує іменований сеанс tmux (типово: main). Профіль tmux зберігається після перепідключення й відновлення сеансу програми. Це роумінговий термінал tmux, а не нативне дзеркало cmux ssh-tmux. --session <name> вибирає сеанс; решта параметрів відповідає cmux mosh. Без Mosh той самий профіль працює через SSH.\n\nПриклад:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用法: cmux mosh-tmux <destination> [--session <name>] [flags]\n\n创建一个 Mosh 工作区，用于创建或附加命名的 tmux 会话（默认：main）。tmux 配置会在重连和应用会话恢复后保留。这是可漫游的 tmux 终端，而不是 cmux ssh-tmux 的原生镜像。--session <name> 选择会话；其他选项与 cmux mosh 相同。没有 Mosh 时，同一配置会通过 SSH 运行。\n\n示例:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用法: cmux mosh-tmux <destination> [--session <name>] [flags]\n\n建立 Mosh 工作區，用來建立或附加具名 tmux 工作階段（預設：main）。tmux 設定會在重新連線與 App 工作階段還原後保留。這是可漫遊的 tmux 終端，而不是 cmux ssh-tmux 的原生鏡像。--session <name> 選擇工作階段；其他選項與 cmux mosh 相同。沒有 Mosh 時，同一設定會透過 SSH 執行。\n\n範例:\n  cmux mosh-tmux dev@my-host\n  cmux mosh-tmux dev@my-host --session agent-main"
+          }
+        }
+      }
+    },
+    "cli.moshTmux.arguments.invalid": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يقبل mosh-tmux وجهة و --session، وليس أمرًا بعيدًا منفصلًا"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux prihvata odredište i --session, a ne zasebnu udaljenu naredbu"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux accepterer en destination og --session, ikke en separat fjernkommando"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux akzeptiert ein Ziel und --session, aber keinen separaten Remote-Befehl"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux accepts a destination and --session, not a separate remote command"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux acepta un destino y --session, no un comando remoto separado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux accepte une destination et --session, pas une commande distante distincte"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux accetta una destinazione e --session, non un comando remoto separato"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux は接続先と --session を受け付けます。別のリモートコマンドは指定できません"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux ទទួល destination និង --session មិនទទួល remote command ដាច់ដោយឡែកទេ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux는 대상과 --session을 받으며 별도의 원격 명령은 받지 않습니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux godtar et mål og --session, ikke en separat ekstern kommando"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux przyjmuje cel i --session, a nie osobne zdalne polecenie"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux aceita um destino e --session, não um comando remoto separado"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux принимает адрес и --session, но не отдельную удалённую команду"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux รับ destination และ --session ไม่รับ remote command แยกต่างหาก"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux bir hedef ve --session kabul eder, ayrı bir uzak komut kabul etmez"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux приймає адресу та --session, а не окрему віддалену команду"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux 接受目标和 --session，不接受单独的远程命令"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux 接受目的地與 --session，不接受獨立的遠端命令"
+          }
+        }
+      }
+    },
+    "cli.moshTmux.session.invalid": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: يتطلب --session اسم جلسة غير فارغ من دون محارف مخفية"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session zahtijeva neprazno ime sesije bez skrivenih znakova"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session kræver et ikke-tomt sessionsnavn uden skjulte tegn"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session erfordert einen nicht leeren Sitzungsnamen ohne versteckte Zeichen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session requires a non-empty session name without hidden characters"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session requiere un nombre de sesión no vacío y sin caracteres ocultos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux : --session exige un nom de session non vide sans caractères masqués"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session richiede un nome di sessione non vuoto e senza caratteri nascosti"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session には、隠し文字を含まない空でないセッション名が必要です"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session ត្រូវការឈ្មោះ session មិនទទេ និងគ្មានតួអក្សរលាក់"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session에는 숨은 문자가 없는 비어 있지 않은 세션 이름이 필요합니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session krever et ikke-tomt øktnavn uten skjulte tegn"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session wymaga niepustej nazwy sesji bez ukrytych znaków"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session exige um nome de sessão não vazio e sem caracteres ocultos"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session требует непустое имя сеанса без скрытых символов"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session ต้องมีชื่อ session ที่ไม่ว่างและไม่มีอักขระซ่อน"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session gizli karakter içermeyen, boş olmayan bir oturum adı gerektirir"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux: --session потребує непорожньої назви сеансу без прихованих символів"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux：--session 需要一个不含隐藏字符的非空会话名称"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mosh-tmux：--session 需要不含隱藏字元的非空工作階段名稱"
+          }
+        }
+      }
+    },
+    "socket.workspace.remote.terminalProfile.invalid": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يجب أن تفتح الطرفية البعيدة صدفة أو جلسة tmux مسماة صالحة."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Udaljeni terminal mora otvoriti ljusku ili važeću imenovanu tmux sesiju."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fjernterminalen skal åbne en shell eller en gyldig navngivet tmux-session."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Remote-Terminal muss eine Shell oder eine gültige benannte tmux-Sitzung öffnen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The remote terminal must open a shell or a valid named tmux session."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El terminal remoto debe abrir un shell o una sesión tmux válida con nombre."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le terminal distant doit ouvrir un shell ou une session tmux nommée valide."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il terminale remoto deve aprire una shell o una sessione tmux denominata valida."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リモートターミナルではシェルまたは有効な名前付き tmux セッションを開く必要があります。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ស្ថានីយពីចម្ងាយត្រូវបើក shell ឬ tmux session មានឈ្មោះត្រឹមត្រូវ។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "원격 터미널은 셸 또는 유효한 이름의 tmux 세션을 열어야 합니다."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fjernterminalen må åpne et skall eller en gyldig navngitt tmux-økt."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zdalny terminal musi otworzyć powłokę lub poprawną nazwaną sesję tmux."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O terminal remoto deve abrir um shell ou uma sessão tmux nomeada válida."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалённый терминал должен открывать оболочку или допустимый именованный сеанс tmux."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เทอร์มินัลระยะไกลต้องเปิด shell หรือ tmux session ที่มีชื่อถูกต้อง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uzak terminal bir kabuk veya geçerli bir adlandırılmış tmux oturumu açmalıdır."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Віддалений термінал має відкривати оболонку або дійсний іменований сеанс tmux."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "远程终端必须打开 shell 或有效的命名 tmux 会话。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "遠端終端必須開啟 shell 或有效的具名 tmux 工作階段。"
+          }
+        }
+      }
+    },
     "cli.help.ssh": {
       "extractionState": "manual",
       "localizations": {
@@ -33869,6 +34494,1006 @@
           "stringUnit": {
             "state": "translated",
             "value": "Usage: cmux ssh <destination> [flags] [-- <remote-command-args>]\n\n建立新的工作區，將其標記為 remote-SSH，並在該工作區中啟動 SSH 工作階段。\ncmux 也會建立本機 SSH 代理端點，讓瀏覽器流量可以從遠端主機送出。\n\nFlags:\n  --name <title>          選用的工作區標題\n  --port <n>              SSH 連接埠\n  --identity <path>       SSH identity 檔案路徑\n  -A, --forward-agent     轉送呼叫端的 SSH agent；也會遵循 ssh_config 中的 ForwardAgent yes\n  -a, --no-forward-agent  對此工作區停用 SSH agent 轉送\n  --ssh-option <opt>      額外的 SSH -o 選項（可重複）\n  --window <id|ref|index> 受管理工作區的目標視窗\n  --no-focus              建立工作區但不切換到該工作區\n\nExample:\n  cmux ssh dev@my-host\n  cmux ssh dev@my-host --name \"gpu-box\" --port 2222 --identity ~/.ssh/id_ed25519\n  cmux ssh dev@my-host --forward-agent\n  cmux ssh dev@my-host --ssh-option UserKnownHostsFile=/dev/null --ssh-option StrictHostKeyChecking=no"
+          }
+        }
+      }
+    },
+    "cli.help.ssh.mosh": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نقل طرفية Mosh:\n  --transport <ssh|mosh>  نقل الطرفية التفاعلية (الافتراضي: ssh)\n\nيدير SSH الميزات البعيدة، وينقل Mosh الطرفية التفاعلية فقط. إذا لم يتوفر Mosh محليًا أو عن بُعد، يوضّح cmux ذلك ويستخدم SSH.\n\nمثال:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh transport terminala:\n  --transport <ssh|mosh>  Transport interaktivnog terminala (zadano: ssh)\n\nSSH upravlja udaljenim funkcijama, a Mosh prenosi samo terminal. Ako Mosh nedostaje lokalno ili udaljeno, cmux to prijavljuje i koristi SSH.\n\nPrimjer:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh-terminaltransport:\n  --transport <ssh|mosh>  Interaktiv terminaltransport (standard: ssh)\n\nSSH håndterer fjernfunktioner, og Mosh bærer kun terminalen. Hvis Mosh mangler lokalt eller på fjernværten, oplyser cmux det og bruger SSH.\n\nEksempel:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh-Terminaltransport:\n  --transport <ssh|mosh>  Interaktiver Terminaltransport (Standard: ssh)\n\nSSH verwaltet Remote-Funktionen, Mosh überträgt nur das Terminal. Fehlt Mosh lokal oder remote, meldet cmux dies und verwendet SSH.\n\nBeispiel:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh terminal transport:\n  --transport <ssh|mosh>  Interactive terminal transport (default: ssh)\n\nSSH continues to handle remote features; Mosh carries only the interactive\nterminal. If Mosh is missing locally or remotely, cmux reports it and uses SSH.\n\nExample:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transporte de terminal Mosh:\n  --transport <ssh|mosh>  Transporte del terminal interactivo (predeterminado: ssh)\n\nSSH gestiona las funciones remotas y Mosh solo transporta el terminal. Si falta Mosh localmente o en remoto, cmux lo indica y usa SSH.\n\nEjemplo:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transport de terminal Mosh :\n  --transport <ssh|mosh>  Transport du terminal interactif (par défaut : ssh)\n\nSSH gère les fonctions distantes et Mosh transporte seulement le terminal. Si Mosh manque en local ou à distance, cmux le signale et utilise SSH.\n\nExemple :\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trasporto terminale Mosh:\n  --transport <ssh|mosh>  Trasporto del terminale interattivo (predefinito: ssh)\n\nSSH gestisce le funzioni remote e Mosh trasporta solo il terminale. Se Mosh manca in locale o in remoto, cmux lo segnala e usa SSH.\n\nEsempio:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh ターミナルトランスポート:\n  --transport <ssh|mosh>  対話型ターミナルのトランスポート（デフォルト: ssh）\n\nリモート機能は SSH が管理し、Mosh は対話型ターミナルだけを運びます。ローカルまたはリモートに Mosh がない場合、cmux はその旨を表示して SSH を使用します。\n\n例:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "មធ្យោបាយស្ថានីយ Mosh៖\n  --transport <ssh|mosh>  មធ្យោបាយស្ថានីយអន្តរកម្ម (លំនាំដើម៖ ssh)\n\nSSH គ្រប់គ្រងមុខងារពីចម្ងាយ ហើយ Mosh ដឹកតែស្ថានីយ។ បើខ្វះ Mosh cmux នឹងជូនដំណឹង ហើយប្រើ SSH។\n\nឧទាហរណ៍៖\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh 터미널 전송 방식:\n  --transport <ssh|mosh>  대화형 터미널 전송 방식(기본값: ssh)\n\n원격 기능은 SSH가 관리하고 Mosh는 터미널만 전송합니다. 로컬 또는 원격에 Mosh가 없으면 cmux가 알리고 SSH를 사용합니다.\n\n예:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh-terminaltransport:\n  --transport <ssh|mosh>  Interaktiv terminaltransport (standard: ssh)\n\nSSH håndterer eksterne funksjoner, og Mosh bærer bare terminalen. Hvis Mosh mangler lokalt eller eksternt, sier cmux fra og bruker SSH.\n\nEksempel:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transport terminala Mosh:\n  --transport <ssh|mosh>  Transport terminala interaktywnego (domyślnie: ssh)\n\nSSH obsługuje funkcje zdalne, a Mosh tylko terminal. Jeśli brakuje Mosh lokalnie lub zdalnie, cmux informuje o tym i używa SSH.\n\nPrzykład:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transporte de terminal Mosh:\n  --transport <ssh|mosh>  Transporte do terminal interativo (padrão: ssh)\n\nO SSH gerencia os recursos remotos e o Mosh transporta apenas o terminal. Se faltar Mosh local ou remotamente, o cmux informa e usa SSH.\n\nExemplo:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Транспорт терминала Mosh:\n  --transport <ssh|mosh>  Транспорт интерактивного терминала (по умолчанию: ssh)\n\nSSH управляет удалёнными функциями, а Mosh передаёт только терминал. Если Mosh отсутствует локально или удалённо, cmux сообщает об этом и использует SSH.\n\nПример:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การส่งเทอร์มินัล Mosh:\n  --transport <ssh|mosh>  การส่งเทอร์มินัลแบบโต้ตอบ (ค่าเริ่มต้น: ssh)\n\nSSH จัดการคุณสมบัติระยะไกล ส่วน Mosh ส่งเฉพาะเทอร์มินัล หากไม่มี Mosh cmux จะแจ้งและใช้ SSH\n\nตัวอย่าง:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh terminal aktarımı:\n  --transport <ssh|mosh>  Etkileşimli terminal aktarımı (varsayılan: ssh)\n\nUzak özellikleri SSH yönetir, Mosh yalnızca terminali taşır. Mosh yerelde veya uzakta yoksa cmux bunu bildirir ve SSH kullanır.\n\nÖrnek:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Транспорт термінала Mosh:\n  --transport <ssh|mosh>  Транспорт інтерактивного термінала (типово: ssh)\n\nSSH керує віддаленими функціями, а Mosh передає лише термінал. Якщо Mosh відсутній локально або віддалено, cmux повідомляє про це й використовує SSH.\n\nПриклад:\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh 终端传输：\n  --transport <ssh|mosh>  交互式终端传输方式（默认：ssh）\n\nSSH 管理远程功能，Mosh 仅承载终端。如果本地或远程缺少 Mosh，cmux 会说明原因并使用 SSH。\n\n示例：\n  cmux ssh dev@my-host --transport mosh"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh 終端傳輸：\n  --transport <ssh|mosh>  互動式終端傳輸方式（預設：ssh）\n\nSSH 管理遠端功能，Mosh 只承載終端。如果本機或遠端缺少 Mosh，cmux 會說明原因並使用 SSH。\n\n範例：\n  cmux ssh dev@my-host --transport mosh"
+          }
+        }
+      }
+    },
+    "cli.ssh.mosh.localMissing": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ‏Mosh غير مثبت محليًا؛ جارٍ المتابعة عبر SSH."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh nije instaliran lokalno; nastavak putem SSH-a."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh er ikke installeret lokalt; fortsætter via SSH."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh ist lokal nicht installiert; Verbindung wird über SSH fortgesetzt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh is not installed locally; continuing over SSH."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh no está instalado localmente; se continuará mediante SSH."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh n’est pas installé localement ; poursuite via SSH."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh non è installato localmente; continuazione tramite SSH."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh がローカルにインストールされていないため、SSH で接続を続行します。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] មិនបានដំឡើង Mosh នៅក្នុងម៉ាស៊ីនទេ ដូច្នេះបន្តតាម SSH។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 로컬에 Mosh가 설치되어 있지 않아 SSH로 계속합니다."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh er ikke installert lokalt; fortsetter over SSH."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh nie jest zainstalowany lokalnie; kontynuowanie przez SSH."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] O Mosh não está instalado localmente; continuando por SSH."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh не установлен локально; продолжение через SSH."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ไม่ได้ติดตั้ง Mosh ในเครื่อง จึงดำเนินการต่อผ่าน SSH"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh yerel olarak kurulu değil; SSH üzerinden devam ediliyor."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Mosh не встановлено локально; продовження через SSH."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 本地未安装 Mosh；将继续使用 SSH。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 本機未安裝 Mosh；將繼續使用 SSH。"
+          }
+        }
+      }
+    },
+    "cli.ssh.mosh.localUnsupported": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] يفتقر عميل Mosh المحلي إلى تكامل SSH المطلوب؛ جارٍ المتابعة عبر SSH."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Lokalnom Mosh klijentu nedostaje potrebna SSH integracija; nastavak putem SSH-a."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Den lokale Mosh-klient mangler den nødvendige SSH-integration; fortsætter via SSH."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Dem lokalen Mosh-Client fehlt die erforderliche SSH-Integration; Verbindung wird über SSH fortgesetzt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] The local Mosh client lacks required SSH integration; continuing over SSH."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] El cliente Mosh local no admite la integración SSH requerida; se continuará mediante SSH."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Le client Mosh local ne prend pas en charge l’intégration SSH requise ; poursuite via SSH."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Il client Mosh locale non supporta l’integrazione SSH richiesta; continuazione tramite SSH."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ローカルの Mosh クライアントが必要な SSH 連携に対応していないため、SSH で接続を続行します。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] កម្មវិធី Mosh ក្នុងម៉ាស៊ីនមិនគាំទ្រការរួមបញ្ចូល SSH ដែលត្រូវការទេ ដូច្នេះបន្តតាម SSH។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 로컬 Mosh 클라이언트가 필요한 SSH 연동을 지원하지 않아 SSH로 계속합니다."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Den lokale Mosh-klienten mangler nødvendig SSH-integrasjon; fortsetter over SSH."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Lokalny klient Mosh nie obsługuje wymaganej integracji SSH; kontynuowanie przez SSH."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] O cliente Mosh local não oferece a integração SSH necessária; continuando por SSH."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Локальный клиент Mosh не поддерживает требуемую интеграцию с SSH; продолжение через SSH."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ไคลเอนต์ Mosh ในเครื่องไม่รองรับการผสานรวม SSH ที่จำเป็น จึงดำเนินการต่อผ่าน SSH"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Yerel Mosh istemcisi gerekli SSH entegrasyonunu desteklemiyor; SSH üzerinden devam ediliyor."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Локальний клієнт Mosh не підтримує потрібну інтеграцію з SSH; продовження через SSH."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 本地 Mosh 客户端不支持所需的 SSH 集成；将继续使用 SSH。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 本機 Mosh 用戶端不支援所需的 SSH 整合；將繼續使用 SSH。"
+          }
+        }
+      }
+    },
+    "cli.ssh.mosh.probeFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] تعذّر التحقق من دعم Mosh على المضيف البعيد؛ جارٍ المتابعة عبر SSH."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Nije moguće potvrditi udaljenu Mosh podršku; nastavak putem SSH-a."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Fjernunderstøttelse af Mosh kunne ikke bekræftes; fortsætter via SSH."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Remote-Mosh-Unterstützung konnte nicht bestätigt werden; Verbindung wird über SSH fortgesetzt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Could not verify remote Mosh support; continuing over SSH."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] No se pudo verificar la compatibilidad remota con Mosh; se continuará mediante SSH."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Impossible de vérifier la prise en charge distante de Mosh ; poursuite via SSH."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Impossibile verificare il supporto Mosh remoto; continuazione tramite SSH."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] リモートの Mosh 対応を確認できなかったため、SSH で接続を続行します。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] មិនអាចផ្ទៀងផ្ទាត់ការគាំទ្រ Mosh ពីចម្ងាយបានទេ ដូច្នេះបន្តតាម SSH។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 원격 Mosh 지원을 확인할 수 없어 SSH로 계속합니다."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Kunne ikke bekrefte ekstern Mosh-støtte; fortsetter over SSH."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Nie udało się potwierdzić zdalnej obsługi Mosh; kontynuowanie przez SSH."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Não foi possível confirmar o suporte remoto ao Mosh; continuando por SSH."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Не удалось проверить удалённую поддержку Mosh; продолжение через SSH."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ไม่สามารถตรวจสอบการรองรับ Mosh ระยะไกลได้ จึงดำเนินการต่อผ่าน SSH"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Uzak Mosh desteği doğrulanamadı; SSH üzerinden devam ediliyor."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Не вдалося перевірити віддалену підтримку Mosh; продовження через SSH."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 无法验证远程 Mosh 支持；将继续使用 SSH。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 無法驗證遠端 Mosh 支援；將繼續使用 SSH。"
+          }
+        }
+      }
+    },
+    "cli.ssh.mosh.remoteMissing": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ‏mosh-server غير مثبت على المضيف البعيد؛ جارٍ المتابعة عبر SSH."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] mosh-server nije instaliran na udaljenom hostu; nastavak putem SSH-a."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] mosh-server er ikke installeret på fjernværten; fortsætter via SSH."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] mosh-server ist auf dem Remote-Host nicht installiert; Verbindung wird über SSH fortgesetzt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] mosh-server is not installed on the remote host; continuing over SSH."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] mosh-server no está instalado en el host remoto; se continuará mediante SSH."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] mosh-server n’est pas installé sur l’hôte distant ; poursuite via SSH."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] mosh-server non è installato sull’host remoto; continuazione tramite SSH."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] リモートホストに mosh-server がインストールされていないため、SSH で接続を続行します。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] មិនបានដំឡើង mosh-server នៅលើម៉ាស៊ីនពីចម្ងាយទេ ដូច្នេះបន្តតាម SSH។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 원격 호스트에 mosh-server가 설치되어 있지 않아 SSH로 계속합니다."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] mosh-server er ikke installert på den eksterne verten; fortsetter over SSH."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] mosh-server nie jest zainstalowany na hoście zdalnym; kontynuowanie przez SSH."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] O mosh-server não está instalado no host remoto; continuando por SSH."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] mosh-server не установлен на удалённом хосте; продолжение через SSH."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] ไม่ได้ติดตั้ง mosh-server บนโฮสต์ระยะไกล จึงดำเนินการต่อผ่าน SSH"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] Uzak ana makinede mosh-server kurulu değil; SSH üzerinden devam ediliyor."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] mosh-server не встановлено на віддаленому хості; продовження через SSH."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 远程主机未安装 mosh-server；将继续使用 SSH。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "[cmux] 遠端主機未安裝 mosh-server；將繼續使用 SSH。"
+          }
+        }
+      }
+    },
+    "cli.ssh.transport.invalid": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: يجب أن يتبع ‎--transport‎ الخيار 'ssh' أو 'mosh'"
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: nakon --transport mora slijediti 'ssh' ili 'mosh'"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --transport skal efterfølges af 'ssh' eller 'mosh'"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: Auf --transport muss 'ssh' oder 'mosh' folgen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --transport must be followed by 'ssh' or 'mosh'"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --transport debe ir seguido de 'ssh' o 'mosh'"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh : --transport doit être suivi de 'ssh' ou 'mosh'"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --transport deve essere seguito da 'ssh' o 'mosh'"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --transport の後には 'ssh' または 'mosh' を指定してください"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh៖ --transport ត្រូវតែបន្តដោយ 'ssh' ឬ 'mosh'"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --transport 뒤에는 'ssh' 또는 'mosh'를 지정해야 합니다"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --transport må etterfølges av 'ssh' eller 'mosh'"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: po --transport należy podać 'ssh' albo 'mosh'"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --transport deve ser seguido por 'ssh' ou 'mosh'"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: после --transport необходимо указать 'ssh' или 'mosh'"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --transport ต้องตามด้วย 'ssh' หรือ 'mosh'"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: --transport seçeneğini 'ssh' veya 'mosh' izlemelidir"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh: після --transport потрібно вказати 'ssh' або 'mosh'"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh：--transport 后必须指定 'ssh' 或 'mosh'"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ssh：--transport 後必須指定 'ssh' 或 'mosh'"
+          }
+        }
+      }
+    },
+    "socket.workspace.remote.terminalTransport.invalid": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يجب أن يكون نقل الطرفية البعيدة SSH أو Mosh."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transport udaljenog terminala mora biti SSH ili Mosh."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fjernterminalens transport skal være SSH eller Mosh."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Transport des Remote-Terminals muss SSH oder Mosh sein."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The remote terminal transport must be SSH or Mosh."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El transporte del terminal remoto debe ser SSH o Mosh."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le transport du terminal distant doit être SSH ou Mosh."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il trasporto del terminale remoto deve essere SSH o Mosh."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リモートターミナルのトランスポートは SSH または Mosh にする必要があります。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "មធ្យោបាយស្ថានីយពីចម្ងាយត្រូវតែជា SSH ឬ Mosh។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "원격 터미널 전송 방식은 SSH 또는 Mosh여야 합니다."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fjernterminalens transport må være SSH eller Mosh."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transport zdalnego terminala musi używać SSH albo Mosh."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O transporte do terminal remoto deve ser SSH ou Mosh."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Транспорт удалённого терминала должен использовать SSH или Mosh."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การส่งเทอร์มินัลระยะไกลต้องใช้ SSH หรือ Mosh"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uzak terminal aktarımı SSH veya Mosh olmalıdır."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Транспорт віддаленого термінала має використовувати SSH або Mosh."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "远程终端传输必须使用 SSH 或 Mosh。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "遠端終端傳輸必須使用 SSH 或 Mosh。"
+          }
+        }
+      }
+    },
+    "socket.workspace.remote.terminalTransport.moshRequiresSSH": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يتطلب نقل طرفية Mosh مساحة عمل مُدارة عبر SSH."
+          }
+        },
+        "bs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh transport terminala zahtijeva workspace kojim upravlja SSH."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh-terminaltransport kræver et SSH-administreret arbejdsområde."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Mosh-Terminaltransport erfordert einen per SSH verwalteten Workspace."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh terminal transport requires an SSH-managed workspace."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El transporte de terminal Mosh requiere un espacio de trabajo gestionado por SSH."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le transport de terminal Mosh nécessite un espace de travail géré par SSH."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il trasporto terminale Mosh richiede un workspace gestito da SSH."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh ターミナルトランスポートには SSH 管理のワークスペースが必要です。"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "មធ្យោបាយស្ថានីយ Mosh ត្រូវការកន្លែងធ្វើការដែលគ្រប់គ្រងដោយ SSH។"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh 터미널 전송 방식에는 SSH 관리 워크스페이스가 필요합니다."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh-terminaltransport krever et SSH-administrert arbeidsområde."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transport terminala Mosh wymaga obszaru roboczego zarządzanego przez SSH."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O transporte de terminal Mosh exige um workspace gerenciado por SSH."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Транспорт терминала Mosh требует рабочего пространства под управлением SSH."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การส่งเทอร์มินัล Mosh ต้องใช้เวิร์กสเปซที่จัดการด้วย SSH"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh terminal aktarımı, SSH tarafından yönetilen bir çalışma alanı gerektirir."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Транспорт термінала Mosh потребує робочого простору під керуванням SSH."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh 终端传输需要由 SSH 管理的工作区。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mosh 終端傳輸需要由 SSH 管理的工作區。"
           }
         }
       }
@@ -44056,381 +45681,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "[cmux] 關閉此窗格或按 Ctrl-C 停止重新連線。"
-          }
-        }
-      }
-    },
-    "cli.ssh.error.commandConflict": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: لا يمكن دمج --command مع وسائط الأمر البعيد اللاحقة"
-          }
-        },
-        "bs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command se ne može kombinovati sa završnim argumentima udaljene naredbe"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command kan ikke kombineres med efterfølgende argumenter til fjernkommandoen"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command kann nicht mit nachgestellten Remote-Befehlsargumenten kombiniert werden"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command cannot be combined with trailing remote command arguments"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command no se puede combinar con argumentos finales de comandos remotos"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh : --command ne peut pas être combiné avec des arguments de commande distante placés à la fin"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command non può essere combinato con argomenti finali del comando remoto"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command は末尾のリモートコマンド引数と同時に指定できません"
-          }
-        },
-        "km": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh៖ មិនអាចប្រើ --command ជាមួយអាគុយម៉ង់ពាក្យបញ្ជាពីចម្ងាយនៅខាងចុងបានទេ"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command는 뒤에 오는 원격 명령 인수와 함께 사용할 수 없습니다"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command kan ikke kombineres med etterfølgende argumenter til fjernkommandoen"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: opcji --command nie można łączyć z końcowymi argumentami polecenia zdalnego"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command não pode ser combinado com argumentos finais de comando remoto"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command нельзя сочетать с завершающими аргументами удалённой команды"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: ไม่สามารถใช้ --command ร่วมกับอาร์กิวเมนต์คำสั่งระยะไกลต่อท้ายได้"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command sondaki uzak komut bağımsız değişkenleriyle birlikte kullanılamaz"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command не можна поєднувати з кінцевими аргументами віддаленої команди"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh：--command 不能与末尾的远程命令参数同时使用"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh：--command 不能與末尾的遠端命令引數同時使用"
-          }
-        }
-      }
-    },
-    "cli.ssh.error.commandRequiresText": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: يتطلب --command نص أمر غير فارغ"
-          }
-        },
-        "bs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command zahtijeva tekst naredbe koji nije prazan"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command kræver en kommandotekst, der ikke er tom"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command erfordert einen nicht leeren Befehlstext"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command requires non-empty command text"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command requiere texto de comando no vacío"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh : --command nécessite un texte de commande non vide"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command richiede un testo di comando non vuoto"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command には空でないコマンドテキストが必要です"
-          }
-        },
-        "km": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh៖ --command ត្រូវការអត្ថបទពាក្យបញ្ជាដែលមិនទទេ"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command에는 비어 있지 않은 명령 텍스트가 필요합니다"
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command krever kommandotekst som ikke er tom"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: opcja --command wymaga niepustego tekstu polecenia"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command requer um texto de comando não vazio"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: для --command требуется непустой текст команды"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command ต้องมีข้อความคำสั่งที่ไม่ว่างเปล่า"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: --command boş olmayan komut metni gerektirir"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh: для --command потрібен непорожній текст команди"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh：--command 需要非空命令文本"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ssh：--command 需要非空命令文字"
-          }
-        }
-      }
-    },
-    "cli.ssh.initialCommand.unsupportedShell": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] لم يتم تشغيل الأمر الأولي لأن cmux لا يدعم الأوامر الأولية لصدفة تسجيل الدخول البعيدة هذه. أعد الاتصال باستخدام صدفة مدعومة لإعادة المحاولة."
-          }
-        },
-        "bs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] Početna naredba nije pokrenuta jer cmux ne podržava početne naredbe za ovu udaljenu prijavnu ljusku. Ponovo se povežite koristeći podržanu ljusku da pokušate ponovo."
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] Den indledende kommando blev ikke kørt, fordi cmux ikke understøtter indledende kommandoer for denne eksterne loginskal. Opret forbindelse igen med en understøttet skal for at prøve igen."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] Der initiale Befehl wurde nicht ausgeführt, weil cmux initiale Befehle für diese Remote-Anmeldeshell nicht unterstützt. Stellen Sie die Verbindung mit einer unterstützten Shell erneut her, um es noch einmal zu versuchen."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] Initial command was not run because cmux does not support initial commands for this remote login shell. Reconnect with a supported shell to retry it."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] El comando inicial no se ejecutó porque cmux no admite comandos iniciales para este shell de inicio de sesión remoto. Vuelve a conectarte con un shell compatible para intentarlo de nuevo."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] La commande initiale n’a pas été exécutée, car cmux ne prend pas en charge les commandes initiales pour ce shell de connexion distant. Reconnectez-vous avec un shell pris en charge pour réessayer."
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] Il comando iniziale non è stato eseguito perché cmux non supporta i comandi iniziali per questa shell di accesso remota. Riconnettiti con una shell supportata per riprovare."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] このリモートログインシェルでは初期コマンドがサポートされていないため、コマンドは実行されませんでした。対応しているシェルで再接続して、もう一度お試しください。"
-          }
-        },
-        "km": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] ពាក្យបញ្ជាដំបូងមិនត្រូវបានដំណើរការទេ ពីព្រោះ cmux មិនគាំទ្រពាក្យបញ្ជាដំបូងសម្រាប់ shell ចូលពីចម្ងាយនេះ។ ភ្ជាប់ឡើងវិញដោយប្រើ shell ដែលគាំទ្រ ដើម្បីព្យាយាមម្តងទៀត។"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] cmux가 이 원격 로그인 셸의 초기 명령을 지원하지 않아 명령이 실행되지 않았습니다. 지원되는 셸로 다시 연결하여 재시도하세요."
-          }
-        },
-        "nb": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] Den første kommandoen ble ikke kjørt fordi cmux ikke støtter første kommandoer for dette eksterne innloggingsskallet. Koble til på nytt med et støttet skall for å prøve igjen."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] Polecenie początkowe nie zostało uruchomione, ponieważ cmux nie obsługuje poleceń początkowych dla tej zdalnej powłoki logowania. Połącz się ponownie przy użyciu obsługiwanej powłoki, aby spróbować ponownie."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] O comando inicial não foi executado porque o cmux não oferece suporte a comandos iniciais neste shell de login remoto. Reconecte-se com um shell compatível para tentar novamente."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] Начальная команда не была выполнена, потому что cmux не поддерживает начальные команды для этой удалённой оболочки входа. Переподключитесь с поддерживаемой оболочкой, чтобы повторить попытку."
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] ไม่ได้เรียกใช้คำสั่งเริ่มต้น เนื่องจาก cmux ไม่รองรับคำสั่งเริ่มต้นสำหรับเชลล์ล็อกอินระยะไกลนี้ เชื่อมต่อใหม่ด้วยเชลล์ที่รองรับเพื่อลองอีกครั้ง"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] cmux bu uzak oturum açma kabuğu için ilk komutları desteklemediğinden ilk komut çalıştırılmadı. Yeniden denemek için desteklenen bir kabukla yeniden bağlanın."
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] Початкову команду не виконано, оскільки cmux не підтримує початкові команди для цієї віддаленої оболонки входу. Повторно підключіться з підтримуваною оболонкою, щоб спробувати ще раз."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] 未运行初始命令，因为 cmux 不支持为此远程登录 shell 运行初始命令。请使用受支持的 shell 重新连接以重试。"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "[cmux] 未執行初始命令，因為 cmux 不支援為此遠端登入 shell 執行初始命令。請使用受支援的 shell 重新連線以重試。"
           }
         }
       }
