@@ -133726,6 +133726,108 @@
         }
       }
     },
+    "remoteDaemon.upload.createDirectoryFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "failed to create remote daemon directory"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リモートデーモンのディレクトリを作成できませんでした"
+          }
+        }
+      }
+    },
+    "remoteDaemon.upload.createDirectoryFailedWithDetail": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "failed to create remote daemon directory: %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リモートデーモンのディレクトリを作成できませんでした：%@"
+          }
+        }
+      }
+    },
+    "remoteDaemon.upload.installFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "failed to install remote daemon binary"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リモートデーモンのバイナリをインストールできませんでした"
+          }
+        }
+      }
+    },
+    "remoteDaemon.upload.installFailedWithDetail": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "failed to install remote daemon binary: %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リモートデーモンのバイナリをインストールできませんでした：%@"
+          }
+        }
+      }
+    },
+    "remoteDaemon.upload.transferFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "failed to upload cmuxd-remote"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmuxd-remote をアップロードできませんでした"
+          }
+        }
+      }
+    },
+    "remoteDaemon.upload.transferFailedWithDetail": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "failed to upload cmuxd-remote: %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmuxd-remote をアップロードできませんでした：%@"
+          }
+        }
+      }
+    },
     "remotePTYAttach.error.allocationDiagnostic": {
       "comment": "Passthrough of the remote daemon's dynamic PTY-allocation diagnostic (device paths, devpts mount options, remediation). The detail is locale-invariant technical text, so every locale is just the substitution placeholder.",
       "localizations": {
