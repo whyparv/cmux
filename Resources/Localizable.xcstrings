@@ -47052,6 +47052,125 @@
         }
       }
     },
+    "cli.workspaceGroup.help.createSafety": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Omitting --from creates an anchor-only group without capturing live workspaces."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "--from を省略すると、実行中のワークスペースを取り込まずにアンカーのみのグループを作成します。"
+          }
+        }
+      }
+    },
+    "cli.workspaceGroup.help.deleteSafety": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dissolve a group, preserving all members"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全メンバーを保持したままグループを解除"
+          }
+        }
+      }
+    },
+    "cli.workspaceGroup.help.destructiveDelete": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete the group AND close every member workspace. Explicitly destructive."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "グループを削除し、すべてのメンバーワークスペースを閉じます。明示的な破壊操作です。"
+          }
+        }
+      }
+    },
+    "cli.workspaceGroup.response.closed.other": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK group deleted (closed %lld workspaces)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK グループを削除しました（%lld 個のワークスペースを閉じました）"
+          }
+        }
+      }
+    },
+    "cli.workspaceGroup.response.closed.one": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK group deleted (closed %lld workspace)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK グループを削除しました（%lld 個のワークスペースを閉じました）"
+          }
+        }
+      }
+    },
+    "cli.workspaceGroup.response.dissolved.other": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK group dissolved (kept %lld workspaces)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK グループを解除しました（%lld 個のワークスペースを保持しました）"
+          }
+        }
+      }
+    },
+    "cli.workspaceGroup.response.dissolved.one": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK group dissolved (kept %lld workspace)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK グループを解除しました（%lld 個のワークスペースを保持しました）"
+          }
+        }
+      }
+    },
     "cli.workspace.create.error.envFileRequiresValue": {
       "extractionState": "manual",
       "localizations": {
@@ -235445,6 +235564,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "要求された子ワークスペースはすべて既にグループのアンカーのため対象外です。先にグループ解除してください"
+          }
+        }
+      }
+    },
+    "workspaceGroup.error.closeWorkspacesMustBeBoolean": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "close_workspaces must be a boolean"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "close_workspaces はブール値である必要があります"
           }
         }
       }
