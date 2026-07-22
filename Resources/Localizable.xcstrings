@@ -107953,6 +107953,23 @@
         }
       }
     },
+    "filePreview.refresh": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refresh"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再読み込み"
+          }
+        }
+      }
+    },
     "forkConversation.destination.bottom": {
       "extractionState": "manual",
       "localizations": {
