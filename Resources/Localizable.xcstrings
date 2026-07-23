@@ -106504,13 +106504,13 @@
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "feed.push event failed to decode: %@"
+            "value": "feed.push event failed to decode"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "feed.push イベントをデコードできませんでした: %@"
+            "value": "feed.push イベントをデコードできませんでした"
           }
         }
       }
