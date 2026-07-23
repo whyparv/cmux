@@ -106498,6 +106498,57 @@
         }
       }
     },
+    "feed.push.error.decodeFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "feed.push event failed to decode: %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "feed.push イベントをデコードできませんでした: %@"
+          }
+        }
+      }
+    },
+    "feed.push.error.exclusiveEventShape": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "feed.push accepts either `event` or `events`, not both"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "feed.push には `event` または `events` のいずれか一方のみを指定できます。"
+          }
+        }
+      }
+    },
+    "feed.push.error.requiresEvent": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "feed.push requires an `event` object"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "feed.push には `event` オブジェクトが必要です。"
+          }
+        }
+      }
+    },
     "feed.question.answerAll": {
       "extractionState": "manual",
       "localizations": {
