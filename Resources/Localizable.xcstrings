@@ -39367,6 +39367,23 @@
         }
       }
     },
+    "cli.hooks.pi.error.feedIngestionNotAcknowledged": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux did not receive acknowledgment for Pi feed ingestion"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cmux が Pi フィードの取り込み確認を受信できませんでした"
+          }
+        }
+      }
+    },
     "cli.hooks.pi.error.notCmuxExtension": {
       "extractionState": "manual",
       "localizations": {
