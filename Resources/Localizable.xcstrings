@@ -241740,6 +241740,23 @@
         }
       }
     },
+    "settings.networking.diagnostics.failure.transportIdleTimedOut": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transport Idle Timeout"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "接続アイドルタイムアウト"
+          }
+        }
+      }
+    },
     "settings.networking.diagnostics.failure.unknown": {
       "extractionState": "manual",
       "localizations": {
