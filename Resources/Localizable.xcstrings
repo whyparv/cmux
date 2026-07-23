@@ -45452,6 +45452,142 @@
         }
       }
     },
+    "cli.socket.error.commandTimedOut": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Command timed out"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コマンドがタイムアウトしました"
+          }
+        }
+      }
+    },
+    "cli.socket.error.failedToWrite": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to write to socket"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ソケットへの書き込みに失敗しました"
+          }
+        }
+      }
+    },
+    "cli.socket.error.invalidUTF8Response": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid UTF-8 response"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UTF-8 形式ではない応答です"
+          }
+        }
+      }
+    },
+    "cli.socket.error.notConnected": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not connected"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "接続されていません"
+          }
+        }
+      }
+    },
+    "cli.socket.error.responseExceededBatchLimit": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Socket response exceeded batch limit"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ソケット応答がバッチ上限を超えました"
+          }
+        }
+      }
+    },
+    "cli.socket.error.socketClosedBeforeCompleteReply": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Socket closed before complete reply"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完全な応答を受信する前にソケットが閉じられました"
+          }
+        }
+      }
+    },
+    "cli.socket.error.socketRead": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Socket read error"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ソケット読み取りエラー"
+          }
+        }
+      }
+    },
+    "cli.socket.error.unexpectedExtraBatchResponse": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unexpected extra batched socket response"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "予期しない余分なバッチソケット応答を受信しました"
+          }
+        }
+      }
+    },
     "cli.socket.error.workspaceNotClosed": {
       "extractionState": "manual",
       "localizations": {
