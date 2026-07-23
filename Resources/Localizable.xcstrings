@@ -59740,6 +59740,23 @@
         }
       }
     },
+    "command.surfaceNavigation.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Surface Navigation"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サーフェスナビゲーション"
+          }
+        }
+      }
+    },
     "command.switchExtensionSidebar.subtitle": {
       "extractionState": "manual",
       "localizations": {
