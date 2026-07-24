@@ -20711,23 +20711,6 @@
         }
       }
     },
-    "browser.designMode.handoff.unavailable": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "unavailable"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "利用不可"
-          }
-        }
-      }
-    },
     "browser.designMode.handoff.untrusted": {
       "extractionState": "manual",
       "localizations": {
