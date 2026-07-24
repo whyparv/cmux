@@ -241740,6 +241740,23 @@
         }
       }
     },
+    "settings.networking.diagnostics.failure.sendQueueOverflow": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send Queue Overflow"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "送信キューオーバーフロー"
+          }
+        }
+      }
+    },
     "settings.networking.diagnostics.failure.superseded": {
       "extractionState": "manual",
       "localizations": {
